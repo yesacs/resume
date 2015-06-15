@@ -4,23 +4,40 @@
   "description": "A resume",
   "main": "index.js",
   "repository": {
-    "type": "git",
-    "url": "XXXXXXXXXXXX"
+    "type": "git"
   },
   "keywords": [
     "resume"
   ],
-  "dependencies": {},
-  "devDependencies": {
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "bootstrap": "^3.3.4",
     "browserify": "^10.2.4",
     "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-react": "^3.0.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
     "jshint": "^2.8.0",
-    "react": "^0.13.3"
+    "jshint-stylish": "^2.0.0",
+    "jsxhint": "^0.15.1",
+    "node-sass": "^3.2.0",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.2"
   },
   "author": {
     "name": "Casey Sullivan",
     "email": "casey.sullivan@gmail.com",
     "url": "http://caseysullivan.net"
-  },
-  "license": "XXXXXXXXXXXX"
+  }
 }
