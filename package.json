@@ -1,0 +1,26 @@
+{
+  "name": "cps-resume",
+  "version": "0.0.1",
+  "description": "A resume",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "XXXXXXXXXXXX"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "jshint": "^2.8.0",
+    "react": "^0.13.3"
+  },
+  "author": {
+    "name": "Casey Sullivan",
+    "email": "casey.sullivan@gmail.com",
+    "url": "http://caseysullivan.net"
+  },
+  "license": "XXXXXXXXXXXX"
+}
