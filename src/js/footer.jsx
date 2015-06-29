@@ -7,7 +7,7 @@ export class Footer extends React.Component {
     }
     render() {
         return (
-            <footer className="row footer">
+            <footer>
                 <div className="row">
                     <div className="col-sm-12">
                         {this.props.content}
