@@ -1,22 +1,5 @@
-var React = require('react');
-var Job   = require('./job.jsx');
+import React from 'react';
+import Resume from './resume.jsx';
+import ResumeData from '../resumeData.json';
 
-
-var fartboner;
-
-
-
-
-React.createClass({
-	render: function() {
-		return (
-			<span>
-				<Job />
-				<Job />
-				<Job />
-				<Job />
-				<Job />
-			</span>
-		);
-	}
-});
+React.render(<Resume {...ResumeData}/>, document.querySelector('#resume'), function (){});

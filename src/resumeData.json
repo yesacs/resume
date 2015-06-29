@@ -1,0 +1,124 @@
+{
+    "name":"Casey P. Sullivan",
+    "position":"Web Developer",
+    "location":"Burlington, VT",
+    "objective":"To hold a position in web site and web application development.",
+    "email":"casey.sullivan@gmail.com",
+    "offline":"I enjoy the outdoors Vermont has to offer. I play disc golf in the summer and try to ski in the winter. I love music and collect vinyl records and old stereo equipment, as well as concert posters from local designers. I spend too much money on video games.",
+    "footer":"Use of corporate logos and colors does not imply ownership or creation",
+    "contact":[
+        {
+            "class":"twitter",
+            "url":"https://twitter.com/casey_sullivan"
+        },
+        {
+            "class":"facebook",
+            "url":"https://www.facebook.com/Da.Denim.Devil"
+        },
+        {
+            "class":"linkedin",
+            "url":"https://www.linkedin.com/in/caseypsullivan   "
+        },
+    ],
+    "jobs":[
+        {
+            "title":"User Interface Developer",
+            "company":"Dealer.com",
+            "location":"Burlington, VT",
+            "timeAtPosition":"2010 – present (5 years)",
+            "duties":[
+                "UI/UX developer and designer for DT CRM, the fastest growing automotive CRM in the US",
+                "Designed and developed the Dealer.com Pencil Tool, a realtime car payment engine",
+                "Developed embedable js apps designed to augment existing apps without backend integrations",
+                "Met face-to-face with our dealership customers for demos and feedback",
+                "Created internal CRM for in-house sales teams using Grails"
+            ],
+            "links":[
+                {"url":"http://www.dealer.com", "label":"Dealer.com"},
+                {"url":"https://us.dealertrack.com/content/dealertrack/en/crm.html", "label":"Dealertrack CRM"},
+                {"url":"http://www.coxautoinc.com/", "label":"Cox Automotive"},
+            ],
+            "className":"ddc"
+        },
+        {
+            "title":"Interactive Developer",
+            "company":"Propeller Media Works",
+            "location":"Burlington, VT",
+            "timeAtPosition":"2009 – 2010 (9 Months)",
+            "duties":[
+                "Senior PHP developer for one of the most established web firms in Burlington",
+                "Maintenance and additional development on 40+ existing client sites",
+                "Research of new and progressing technology for integration into existing products",
+                "Consulting on CSS and JS possibilities for design projects",
+                "Prototyping next generation of in-house CMS system in Ruby on Rails"
+            ],
+            "links":[
+                {"url":"http://www.propelled.com", "label":"Propeller Media Works"},
+                {"url":"http://ncsmokehouse.com","label":"North Country Smokehouse"}
+            ],
+            "className":"propeller"
+        },
+        {
+            "title":"Manager Software + Analytics",
+            "company":"EpikOne",
+            "location":"Burlington, VT",
+            "timeAtPosition":"2007 – 2009 (2 years 9 Months)",
+            "duties":[
+                "Lead Ruby on Rails developer for one of the premier Google Analytics Authorized Consultancies",
+                "Led development of SiteScan and AnalyticsView, EpikOne's two general public apps",
+                "Built DigitalMIDI, a marketing communications dashboard for enterprise",
+                "Extensive development using the Google Analytics API",
+                "General Mac desktop support and technology consulting",
+                "Created the EpikOne.com website using standards-based XHTML and CSS"
+            ],
+            "links":[
+                {"url":"https://web.archive.org/web/20090503125637/http://www.epikone.com/", "label":"EpikOne at Archive.org"},
+            ],
+            "className":"epikone"
+        },
+        {
+            "title":"HTML Production",
+            "company":"Bluehouse Group",
+            "location":"Richmond, VT",
+            "timeAtPosition":"2005 – 2007 (2 years)",
+            "duties":[
+                "Developer of standards-based HTML and CSS, and PHP sites ranging from simple brochure sites to high-end e-commerce",
+                "Web site production, development, and maintenance of over 30 sites",
+                "Translation of designs from Photoshop into HTML and CSS",
+                "Research of new technologies for use on future projects, such as Ajax and Ruby on Rails",
+                "Helped develop Content Creator, a CMS system for sites that allows clients to build out the content of a site themselves"
+            ],
+            "links":[
+                {"url":"http://www.bluehousegroup.com", "label":"Bluehouse Group"},
+                {"url":"http://www.newponyrecords.com/","label":"New Pony Records"}
+            ],
+            "className":"bluehouse"
+        }
+    ],
+    "skills":[
+        {
+            "title":"Javascript",
+            "subSkills":[
+                "React", "jQuery","Knockout","Grunt","Gulp","Browserify","Lodash","ESlint","CommonJS","Jasmine","YUI"
+            ]
+        },
+        {
+            "title":"Technologies",
+            "subSkills":[
+                "Grails/Groovy","Java","Ruby on Rails","PHP","HTML","CSS/Sass","Jenkins","Github","Fisheye/Crucible"
+            ]
+        },
+        {
+            "title":"Operating Systems",
+            "subSkills":[
+                "MacOS X","Windows","Linux"
+            ]
+        },
+        {
+            "title":"Other Skills",
+            "subSkills":[
+                "Scrum Agile/SAFe","Desktop Support","Cross-browser Testing","Jira","Rally","Google Apps"
+            ]
+        }
+    ]
+}

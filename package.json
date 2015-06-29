@@ -1,6 +1,6 @@
 {
   "name": "cps-resume",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A resume",
   "main": "index.js",
   "repository": {
@@ -9,25 +9,23 @@
   "keywords": [
     "resume"
   ],
-  "browserify": {
-    "transform": [
-      "reactify"
-    ]
-  },
   "dependencies": {
+    "babel-eslint": "^3.1.19",
     "babelify": "^6.1.2",
-    "bootstrap": "^3.3.4",
+    "bootstrap-sass": "^3.3.5",
     "browserify": "^10.2.4",
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.5.2",
     "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
     "gulp-jshint": "^1.11.0",
     "gulp-react": "^3.0.1",
     "gulp-sass": "^2.0.1",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.5",
-    "jshint": "^2.8.0",
-    "jshint-stylish": "^2.0.0",
-    "jsxhint": "^0.15.1",
+    "lodash": "^3.9.3",
+    "lodash.assign": "^3.2.0",
     "node-sass": "^3.2.0",
     "react": "^0.13.3",
     "reactify": "^1.1.1",
