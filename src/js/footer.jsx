@@ -1,6 +1,5 @@
 'use strict';
 import React from 'react';
-import _ from 'lodash';
 
 export class Footer extends React.Component {
     constructor(props) {
