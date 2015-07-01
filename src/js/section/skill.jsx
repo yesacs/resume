@@ -9,7 +9,7 @@ export class Skill extends React.Component  {
     }
     getSubSkills(){
         return _(this.props.subSkills).map(function (ss){
-            return <li className="col-sm-3 col-xs-4">{ss}</li>;
+            return <li className="col-sm-4 col-xs-6">{ss}</li>;
         }).value();
     }
     getContent() {
