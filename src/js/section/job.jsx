@@ -38,7 +38,7 @@ export class Job extends React.Component  {
     }
     render(){
         return (
-            <Section className={'job ' + this.props.className} gutter={this.getGutter()} content={this.getContent()} />
+            <Section className={'job ' + this.props.class} gutter={this.getGutter()} content={this.getContent()} />
         );
     }
 }

@@ -44,7 +44,7 @@
                 {"url":"https://us.dealertrack.com/content/dealertrack/en/crm.html", "label":"Dealertrack CRM"},
                 {"url":"http://www.coxautoinc.com/", "label":"Cox Automotive"},
             ],
-            "className":"ddc"
+            "class":"ddc"
         },
         {
             "title":"Interactive Developer",
@@ -62,7 +62,7 @@
                 {"url":"http://www.propelled.com", "label":"Propeller Media Works"},
                 {"url":"http://ncsmokehouse.com","label":"North Country Smokehouse"}
             ],
-            "className":"propeller"
+            "class":"propeller"
         },
         {
             "title":"Manager Software + Analytics",
@@ -80,7 +80,7 @@
             "links":[
                 {"url":"https://web.archive.org/web/20090503125637/http://www.epikone.com/", "label":"EpikOne at Archive.org"},
             ],
-            "className":"epikone"
+            "class":"epikone"
         },
         {
             "title":"HTML Production",
@@ -98,7 +98,7 @@
                 {"url":"http://www.bluehousegroup.com", "label":"Bluehouse Group"},
                 {"url":"http://www.newponyrecords.com/","label":"New Pony Records"}
             ],
-            "className":"bluehouse"
+            "class":"bluehouse"
         }
     ],
     "skills":[

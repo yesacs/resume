@@ -15,7 +15,7 @@ export class Header extends React.Component {
         return (
             <header className="row main-header">
                 <div className="row">
-                    <div className="gutter col-sm-3">
+                    <div className="gutter col-sm-6">
                         <h1>{this.props.name}</h1>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ export class Header extends React.Component {
                     <div className="gutter col-sm-3">
                         <p>{this.props.position}<br />{this.props.location}</p>
                     </div>
-                    <div className="content social col-sm-4 col-sm-offset-5">
+                    <div className="content social col-sm-9">
                         <a href={'mailto:' + this.props.email} className="gmail" title={this.props.email}></a>
 
                         {this.getContacts()}
