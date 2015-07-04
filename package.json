@@ -9,13 +9,21 @@
   "keywords": [
     "resume"
   ],
+  "browserify": {
+    "transform": [
+      "babelify",
+      "reactify"
+    ]
+  },
   "dependencies": {
     "babel-eslint": "^3.1.19",
     "babelify": "^6.1.2",
     "bootstrap-sass": "^3.3.5",
     "browserify": "^10.2.4",
+    "chalk": "^1.1.0",
     "eslint": "^0.24.0",
     "eslint-plugin-react": "^2.5.2",
+    "eslint-stylish": "^0.2.0",
     "gulp": "^3.9.0",
     "gulp-eslint": "^0.14.0",
     "gulp-jshint": "^1.11.0",
@@ -25,7 +33,6 @@
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.5",
     "lodash": "^3.9.3",
-    "lodash.assign": "^3.2.0",
     "node-sass": "^3.2.0",
     "react": "^0.13.3",
     "reactify": "^1.1.1",
