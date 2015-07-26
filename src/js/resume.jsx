@@ -38,7 +38,7 @@ export class Resume extends React.Component {
                 <SectionHeader title="Offline" />
                 <Section content={this.getOffline()} />
 
-                <Footer content={this.props.footer} />
+                <Footer content={this.props.footer} repoUrl={this.props.repoUrl} />
             </span>
         );
     }
