@@ -26,7 +26,6 @@ export class Header extends React.Component {
                     </div>
                     <div className="content social col-sm-9">
                         <a href={'mailto:' + this.props.email} className="gmail" title={this.props.email}></a>
-
                         {this.getContacts()}
                     </div>
                 </div>

@@ -29,15 +29,11 @@ export class Resume extends React.Component {
         return (
             <span>
                 <Header {...this.props} />
-
                 {this.getJobs()}
-
                 <SectionHeader title="Skills" />
                 {this.getSkills()}
-
                 <SectionHeader title="Offline" />
                 <Section content={this.getOffline()} />
-
                 <Footer content={this.props.footer} repoUrl={this.props.repoUrl} />
             </span>
         )

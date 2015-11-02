@@ -11,7 +11,6 @@ export class Footer extends React.Component {
                 <div className="row">
                     <div className="col-sm-12">
                         <p>{this.props.content}</p>
-
                         <p><a href={this.props.repoUrl}>{this.props.repoUrl}</a></p>
                     </div>
                 </div>

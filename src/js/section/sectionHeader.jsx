@@ -1,9 +1,9 @@
-'use strict';
-import React from 'react';
+'use strict'
+import React from 'react'
 
 export class SectionHeader extends React.Component {
     constructor(props) {
-        super(props);
+        super(props)
     }
     render() {
         return (
@@ -12,12 +12,12 @@ export class SectionHeader extends React.Component {
                     <h2>{this.props.title}</h2>
                 </div>
             </header>
-        );
+        )
     }
 }
 
 SectionHeader.propTypes = {
     title: React.PropTypes.string
-};
+}
 
-export default SectionHeader;
+export default SectionHeader
