@@ -1,15 +1,15 @@
-'use strict';
-import React from 'react';
-import _ from 'lodash';
+'use strict'
+import React from 'react'
+import _ from 'lodash'
 
 export class Header extends React.Component {
     constructor(props) {
-        super(props);
+        super(props)
     }
     getContacts(){
         return _(this.props.contact).map(function (c){
-            return <a href={c.url} className={c.class} title={c.class}></a>;
-        }).value();
+            return <a href={c.url} className={c.class} title={c.class}></a>
+        }).value()
     }
     render() {
         return (
@@ -31,7 +31,7 @@ export class Header extends React.Component {
                     </div>
                 </div>
             </header>
-        );
+        )
     }
 }
 
@@ -39,6 +39,6 @@ Header.propTypes = {
     name: React.PropTypes.string,
     position: React.PropTypes.string,
     location: React.PropTypes.string
-};
+}
 
-export default Header;
+export default Header
