@@ -7,7 +7,7 @@ export class Header extends React.Component {
         super(props)
     }
     getContacts(){
-        return _(this.props.contact).map(function (c){
+        return _(this.props.contact).map((c) => {
             return <a href={c.url} className={c.class} title={c.class}></a>
         }).value()
     }

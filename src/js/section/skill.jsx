@@ -1,14 +1,14 @@
 'use strict'
-import React from 'react'
+import React   from 'react'
 import Section from './section.jsx'
-import _ from 'lodash'
+import _       from 'lodash'
 
 export class Skill extends React.Component  {
     constructor(props) {
         super(props)
     }
     getContent(){
-        var lis = _(this.props.subSkills).map(function (ss){
+        var lis = _(this.props.subSkills).map((ss) => {
             return <li className="col-sm-4 col-xs-6">{ss}</li>
         }).value()
 
@@ -19,7 +19,9 @@ export class Skill extends React.Component  {
     }
     render(){
         return (
-            <Section gutter={this.getGutter()} content={this.getContent()} className="skill" />
+           <Section gutter={this.getGutter()}
+                    content={this.getContent()}
+                    className="skill" />
         )
     }
 }

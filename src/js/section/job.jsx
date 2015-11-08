@@ -8,12 +8,12 @@ export class Job extends React.Component  {
         super(props)
     }
     getDuties() {
-        return _(this.props.duties).map(function (d){
+        return _(this.props.duties).map((d) => {
             return <li>{d}</li>
         }).value()
     }
     getLinks() {
-        return _(this.props.links).map(function (l){
+        return _(this.props.links).map((l) => {
             return <li><a href={l.url}>{l.label}</a></li>
         }).value()
     }
@@ -43,14 +43,14 @@ export class Job extends React.Component  {
 }
 
 Job.propTypes = {
-    title: React.PropTypes.string,
-    company: React.PropTypes.string,
-    location: React.PropTypes.string,
+    title:          React.PropTypes.string,
+    company:        React.PropTypes.string,
+    location:       React.PropTypes.string,
     timeAtPosition: React.PropTypes.string,
-    duties: React.PropTypes.arrayOf(React.PropTypes.node),
-    links: React.PropTypes.arrayOf(React.PropTypes.shape({
-        url: React.PropTypes.string,
-        label: React.PropTypes.string
+    duties:         React.PropTypes.arrayOf(React.PropTypes.node),
+    links:          React.PropTypes.arrayOf(React.PropTypes.shape({
+        url:        React.PropTypes.string,
+        label:      React.PropTypes.string
     }))
 }
 

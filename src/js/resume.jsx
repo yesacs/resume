@@ -13,12 +13,12 @@ export class Resume extends React.Component {
         super(props)
     }
     getJobs(){
-        return _(this.props.jobs).map(function (j){
+        return _(this.props.jobs).map((j) => {
             return <Job {...j}/>
         }).value()
     }
     getSkills(){
-        return _(this.props.skills).map(function (s){
+        return _(this.props.skills).map((s) => {
             return <Skill {...s}/>
         }).value()
     }
