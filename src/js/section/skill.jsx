@@ -1,34 +1,28 @@
-'use strict'
-import React   from 'react'
+import React, { PropTypes } from 'react'
 import Section from './section.jsx'
-import _       from 'lodash'
 
-export class Skill extends React.Component  {
-    constructor(props) {
-        super(props)
-    }
-    getContent(){
-        var lis = _(this.props.subSkills).map((ss) => {
-            return <li className="col-sm-4 col-xs-6">{ss}</li>
-        }).value()
-
-        return (<ul>{lis}</ul>)
-    }
-    getGutter(){
-        return <div>{this.props.title}</div>
-    }
-    render(){
-        return (
-           <Section gutter={this.getGutter()}
-                    content={this.getContent()}
-                    className="skill" />
-        )
-    }
-}
+const
+  { string, array } = PropTypes,
+  getContent = ({ subSkills }) => (
+    <ul>
+      {subSkills.map((ss, i) => <li key={i} className="col-sm-4 col-xs-6">{ss}</li>)}
+    </ul>
+  ),
+  getGutter = ({ title }) =>
+    <div>{title}</div>,
+  Skill = function (props) {
+    return (
+      <Section
+        gutter={getGutter(props)}
+        content={getContent(props)}
+        className="skill"
+      />
+    )
+  }
 
 Skill.propTypes = {
-    title: React.PropTypes.string,
-    subSkills: React.PropTypes.array
+  title: string,
+  subSkills: array
 }
 
 export default Skill
