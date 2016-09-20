@@ -1,7 +1,6 @@
 import React, { PropTypes } from 'react'
 import Section from './section.jsx'
 
-
 const
   { string , arrayOf, node, shape } = PropTypes,
   getDuties = ({ duties }) => duties.map((d,i) =>
@@ -12,8 +11,8 @@ const
       <a href={l.url}>{l.label}</a>
     </li>
   ),
-  getJobContent = props => {
-    let { title, company, location, timeAtPosition } = props
+  JobContent = props => {
+    const { title, company, location, timeAtPosition } = props
 
     return (
       <div>
@@ -29,21 +28,38 @@ const
       </div>
     )
   },
-  getGutter = ({ gutterClassName }) => <div className={'logo ' + (gutterClassName || null)}></div>,
+  Gutter = ({ gutterClassName }) => <div className={'logo ' + (gutterClassName || null)}></div>,
   Job = function (props) {
-    return <Section className={'job ' + props.class} gutter={getGutter(props)} content={getJobContent(props)} />
+    const 
+      content = <JobContent {...props} />,
+      gutter = <Gutter {...props} />
+
+    return <Section className={'job ' + props.class} gutter={gutter} content={content} />
   }
 
 Job.propTypes = {
   title:          string,
+  class:          string,
   company:        string,
   location:       string,
   timeAtPosition: string,
+  gutterClassName: string,
   duties:         arrayOf(node),
   links:          arrayOf(shape({
     url:        string,
     label:      string
-  }))
+  })),
+}
+
+JobContent.propTypes = {
+  title:          string,
+  company:        string,
+  location:       string,
+  timeAtPosition: string,
+}
+
+Gutter.propTypes = {
+  gutterClassName: string,
 }
 
 export default Job

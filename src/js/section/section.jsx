@@ -13,6 +13,7 @@ const
       </section>
     )
   }
+  
 Section.propTypes = {
   className: string,
   gutter: node,

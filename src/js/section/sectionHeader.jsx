@@ -1,8 +1,9 @@
 'use strict'
-import React from 'react'
+import React, { PropTypes } from 'react'
 
 const
-  SectionHeader = function ({ title }){
+  { string } = PropTypes,
+  SectionHeader = function ({ title }) {
     return (
       <header className="row section-header">
         <div className="content col-sm-9 col-sm-offset-3">
@@ -13,7 +14,7 @@ const
   }
 
 SectionHeader.propTypes = {
-  title: React.PropTypes.string
+  title: string
 }
 
 export default SectionHeader
