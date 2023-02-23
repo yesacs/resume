@@ -1,7 +1,7 @@
 {
     "name":"Casey P. Sullivan",
     "position":"Web Developer",
-    "location":"Burlington, VT",
+    "location":"South Burlington, VT",
     "objective":"To hold a position in web site and web application development.",
     "email":"casey.sullivan@gmail.com",
     "offline":"I enjoy the outdoors Vermont has to offer. I play disc golf in the summer and try to ski in the winter. I love music and collect vinyl records and old stereo equipment, as well as concert posters from local designers. I spend too much money on video games.",
@@ -28,6 +28,26 @@
         },
     ],
     "jobs":[
+        {
+            "title":"Head of Produt Design",
+            "company":"FrikinTech",
+            "location":"Williston, VT",
+            "timeAtPosition":"2018 – present",
+            "duties":[
+            ],
+            "class":"frikin",
+            "links": []
+        },
+        {
+            "title":"User Experience Developer",
+            "company":"Pwnie Express (defunct)",
+            "location":"Burlington, VT",
+            "timeAtPosition":"2015 – 2018",
+            "duties":[
+            ],
+            "class":"pwnie",
+            "links": []
+        },
         {
             "title":"User Interface Developer",
             "company":"Dealer.com",

@@ -2,20 +2,21 @@
   "name": "cps-resume",
   "version": "1.0.0",
   "description": "A resume",
-  "main": "index.js",
   "license": "UNLICENSED",
   "repository": {
     "type": "git"
   },
-  "keywords": [
-    "resume"
-  ],
-  "browserify": {
+  "author": {
+    "name": "Casey Sullivan",
+    "email": "casey.sullivan@gmail.com",
+    "url": "http://casey.pizza"
+  },
+  "xbrowserify": {
     "transform": [
       "babelify"
     ]
   },
-  "scripts": {
+  "xscripts": {
     "lint": "eslint src/js/**.*; exit 0",
     "lint-fix": "eslint src/js/**.* --fix; exit 0",
     "watch-js": "watchify ./src/js/app.jsx -v -d -o ./dist/bundle.js",
@@ -30,27 +31,40 @@
     "clean": "rm -rf ./node_modules && npm install",
     "start": "npm install && ncu && npm run build-css && npm run server"
   },
-  "dependencies": {
-    "babel-eslint": "^6.1.2",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react": "^6.11.1",
-    "babelify": "^7.3.0",
-    "beefy": "^2.1.5",
-    "bootstrap-sass": "^3.3.5",
-    "browserify": "^13.1.0",
-    "concurrently": "^2.2.0",
-    "eslint": "^3.5.0",
-    "eslint-plugin-react": "^6.3.0",
-    "node-sass": "^3.4.1",
-    "npm-check-updates": "^2.8.0",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "uglify-js": "^2.5.0",
-    "watchify": "^3.6.0"
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
   },
-  "author": {
-    "name": "Casey Sullivan",
-    "email": "casey.sullivan@gmail.com",
-    "url": "http://caseysullivan.net"
+  "source": "src/index.html",
+  "xdependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^10.0.0",
+    "beefy": "^1.1.0",
+    "bootstrap-sass": "^3.4.3",
+    "browserify": "^17.0.0",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-react": "^7.32.2",
+    "node-sass": "^8.0.0",
+    "npm-check-updates": "^16.7.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uglify-js": "^3.17.4",
+    "watchify": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@parcel/transformer-sass": "^2.8.3",
+    "bootstrap-sass": "^3.4.3",
+    "parcel": "^2.8.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "alias": {
+    "process": false
   }
 }
