@@ -11,49 +11,11 @@
     "email": "casey.sullivan@gmail.com",
     "url": "http://casey.pizza"
   },
-  "xbrowserify": {
-    "transform": [
-      "babelify"
-    ]
-  },
-  "xscripts": {
-    "lint": "eslint src/js/**.*; exit 0",
-    "lint-fix": "eslint src/js/**.* --fix; exit 0",
-    "watch-js": "watchify ./src/js/app.jsx -v -d -o ./dist/bundle.js",
-    "watch-css": "node-sass --watch ./src/scss/app.scss -o ./dist/css",
-    "watch": "concurrently --kill-others --prefix command --prefix-length 50 \"npm run watch-css\" \"npm run watch-js\"",
-    "prestart": "rm -rf dist && mkdir -p dist",
-    "beefy": "beefy ./src/js/app.jsx:bundle.js --open --cw .",
-    "server": "npm run lint && concurrently --kill-others --prefix command --prefix-length 50 \"npm run watch-css\" \"npm run beefy\"",
-    "build-js": "browserify ./src/js/app.jsx | uglifyjs -cm > ./dist/bundle.min.js",
-    "build-css": "node-sass ./src/scss/app.scss -o ./dist/css",
-    "build": "npm run lint && npm run build-js && npm run build-css",
-    "clean": "rm -rf ./node_modules && npm install",
-    "start": "npm install && ncu && npm run build-css && npm run server"
-  },
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "source": "src/index.html",
-  "xdependencies": {
-    "babel-eslint": "^10.1.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babelify": "^10.0.0",
-    "beefy": "^1.1.0",
-    "bootstrap-sass": "^3.4.3",
-    "browserify": "^17.0.0",
-    "concurrently": "^7.6.0",
-    "eslint": "^8.34.0",
-    "eslint-plugin-react": "^7.32.2",
-    "node-sass": "^8.0.0",
-    "npm-check-updates": "^16.7.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "uglify-js": "^3.17.4",
-    "watchify": "^4.0.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-es2015": "^7.0.0-beta.53",
