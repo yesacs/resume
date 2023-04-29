@@ -1,8 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Section from "./section.jsx";
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const { string } = PropTypes,
+const { string, any } = PropTypes,
   getDuties = ({ duties = [] }) => duties.map((d, i) => <li key={i}>{d}</li>),
   getLinks = ({ links = [] }) =>
     links.map((l, i) => (
@@ -10,7 +9,7 @@ const { string } = PropTypes,
         <a href={l.url}>{l.label}</a>
       </li>
     )),
-  JobContent = (props) => {
+  JobContent = props => {
     const {
       title,
       company,
@@ -18,52 +17,59 @@ const { string } = PropTypes,
       duration = {},
       links = [],
       description,
-    } = props;
+      logo,
+      tools = [],
+    } = props
 
     return (
       <div>
         <div className="job-content">
-          <h3 className="heading">{company}</h3>
+          <img className="job-logo" src={logo} />
+          <h3 className="heading">
+            {title} @ {company}
+          </h3>
           <p className="company">
             {location.city}, {location.state}
-            {duration.start} &mdash; {duration.end || "Present"}
+            {duration.start} &mdash; {duration.end || 'Present'}
           </p>
-          <p>{description}</p>
-          <ul className="duties">{getDuties(props)}</ul>
-          {links.length > 0 && (
-            <div className="links">
-              <ul>{getLinks(props)}</ul>
+          <div className="job-details">
+            <p className="job-description">
+              {description}
+
+              <ul className="duties">{getDuties(props)}</ul>
+              {links.length > 0 && (
+                <div className="links">
+                  <ul>{getLinks(props)}</ul>
+                </div>
+              )}
+            </p>
+            <div className="job-tools">
+              <ul>
+                {tools.map(t => (
+                  <li>{t}</li>
+                ))}
+              </ul>
             </div>
-          )}
+          </div>
         </div>
       </div>
-    );
+    )
   },
-  Gutter = ({ gutterClassName }) => (
-    <div className={"logo " + (gutterClassName || null)}></div>
-  ),
   Job = function (props) {
-    const content = <JobContent {...props} />,
-      gutter = <Gutter {...props} />;
-
     return (
-      <Section
-        className={"job " + props.class}
-        gutter={gutter}
-        content={content}
-      />
-    );
-  };
+      <section className={'job ' + props.class}>
+        <JobContent {...props} />
+      </section>
+    )
+  }
 
 JobContent.propTypes = {
   title: string,
   company: string,
   location: string,
   timeAtPosition: string,
-};
+  logo: any,
+  tools: any,
+}
 
-Gutter.propTypes = {
-  gutterClassName: string,
-};
-
-export default Job;
+export default Job

@@ -1,7 +1,7 @@
-@import "node_modules/bulma/sass/utilities/initial-variables";
-@import "node_modules/bulma/bulma";
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css";
-@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@import 'node_modules/bulma/sass/utilities/initial-variables';
+@import 'node_modules/bulma/bulma';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
+@import 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap';
 
 $job-border-width: 10px;
 
@@ -36,10 +36,10 @@ body {
     color: #fff;
     position: sticky;
     background: linear-gradient(#000, #444);
-    font-family: "Bebas Neue", cursive;
+    font-family: 'Bebas Neue', cursive;
 
     &.main-header {
-      padding-top: 24px;
+      padding-top: 36px;
       padding-left: 15px;
       padding-right: 15px;
     }
@@ -77,22 +77,69 @@ body {
     }
   }
 
+  .jobs {
+    margin: 3rem auto;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   section {
     background: #fff;
 
-    .content {
-      padding-bottom: 18px;
-      padding-top: 6px;
-    }
     .objective {
       padding-top: 24px;
     }
 
     &.job {
-      width: 75%;
-      margin: 3rem auto;
+      flex: 0 1 100%;
+      display: flex;
+      flex-direction: column;
       border-bottom: 1px solid #eee;
       font-size: 14px;
+
+      & > div {
+        padding: 2rem;
+        flex: 1;
+      }
+
+      &:first-child {
+        flex: 0 0 100%;
+      }
+
+      .job-logo {
+        height: 50px;
+      }
+
+      .job-details {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+      }
+
+      .job-description {
+        flex: 0 0 60%;
+        font-size: 12px;
+      }
+
+      .job-tools {
+        flex: 0 0 20%;
+        font-family: 'Bebas Neue', cursive;
+
+        ul {
+          padding: 1rem;
+
+          li {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .heading {
+        color: #222;
+        font-weight: 900;
+        font-size: 1rem;
+      }
 
       em {
         font-style: normal;
@@ -108,12 +155,12 @@ body {
       }
 
       $base-colors: (
-        "bluehouse": rgb(90, 33, 181),
-        "epikone": #549dd2,
-        "propeller": #2d2d2d,
-        "ddc": #f60,
-        "pwnie": #e35205,
-        "frikin": #deb053,
+        'bluehouse': rgb(90, 33, 181),
+        'epikone': #549dd2,
+        'propeller': #2d2d2d,
+        'ddc': #f60,
+        'pwnie': #e35205,
+        'frikin': #deb053,
       );
 
       @each $job, $base in $base-colors {
@@ -122,13 +169,11 @@ body {
             color: $base;
             font-weight: 700;
           }
-          .heading {
-            color: #222;
-          }
-          .content {
-            padding-left: 2rem;
-            background-color: #fff;
+          & > div {
             border-left: $job-border-width solid $base;
+          }
+          .job-tools ul {
+            background-color: rgba($base, 0.2);
           }
         }
       }
