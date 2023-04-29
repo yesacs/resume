@@ -1,20 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import PropTypes from "prop-types";
 
-const
-  { string } = PropTypes,
+const { string } = PropTypes,
   SectionHeader = function ({ title }) {
     return (
       <header className="row section-header">
-        <div className="content col-sm-9 col-sm-offset-3">
+        <div className="content">
           <h2>{title}</h2>
         </div>
       </header>
-    )
-  }
+    );
+  };
 
 SectionHeader.propTypes = {
-  title: string
-}
+  title: string,
+};
 
-export default SectionHeader
+export default SectionHeader;

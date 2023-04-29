@@ -66,7 +66,7 @@ export default {
     },
     {
       title: "User Experience Developer",
-      company: "Pwnie Express (defunct)",
+      company: "Pwnie Express",
       industry: "Cyber Security",
       location: { city: "Burlingon", state: "VT" },
       duration: { start: 2015, end: 2018 },
