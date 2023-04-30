@@ -5,15 +5,17 @@ const { string, any } = PropTypes,
   getDuties = ({ duties = [] }) => duties.map((d, i) => <li key={i}>{d}</li>),
   getLinks = ({ links = [] }) =>
     links.map((l, i) => (
-      <li key={i}>
-        <a href={l.url}>{l.label}</a>
+      <li key={i} className="external-link">
+        <a href={l.url}>
+          {l.label}
+          <i className="fa-sharp fa-solid fa-up-right-from-square" />
+        </a>
       </li>
     )),
   JobContent = props => {
     const {
       title,
       company,
-      location = {},
       duration = {},
       links = [],
       description,
@@ -24,30 +26,24 @@ const { string, any } = PropTypes,
     return (
       <div>
         <div className="job-content">
-          <img className="job-logo" src={logo} />
-          <h3 className="heading">
-            {title} @ {company}
-          </h3>
-          <p className="company">
-            {location.city}, {location.state}
-            {duration.start} &mdash; {duration.end || 'Present'}
-          </p>
           <div className="job-details">
-            <p className="job-description">
-              {description}
-
+            <div className="job-description">
+              <h3>
+                {title} @ {company}
+                <small>
+                  {duration.start} &mdash; {duration.end || 'Present'}
+                </small>
+              </h3>
+              <p>{description}</p>
               <ul className="duties">{getDuties(props)}</ul>
-              {links.length > 0 && (
-                <div className="links">
-                  <ul>{getLinks(props)}</ul>
-                </div>
-              )}
-            </p>
+            </div>
             <div className="job-tools">
+              <img className="job-logo" src={logo} />
               <ul>
                 {tools.map(t => (
                   <li>{t}</li>
                 ))}
+                {getLinks(props)}
               </ul>
             </div>
           </div>

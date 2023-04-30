@@ -2,7 +2,7 @@ import React from 'react'
 import logoFrikin from './static/img/frikin.png'
 import logoPwnie from './static/img/pwnie.jpeg'
 import logoDealer from './static/img/dealer.com.jpg'
-import logoPropeller from './static/img/propeller.jpg'
+import logoPropeller from './static/img/propeller.png'
 import logoEpikone from './static/img/epikone.png'
 import logoBluehouse from './static/img/bluehouse.png'
 
@@ -65,7 +65,13 @@ export default {
       duties: [],
       duration: { start: 2018 },
       class: 'frikin',
-      links: [{ url: 'https://www.frikintech.com', label: 'FRIKINtech' }],
+      links: [
+        { url: 'https://www.frikintech.com', label: 'FRIKINtech' },
+        {
+          url: 'https://www.illumiquote.com/your-dealership',
+          label: 'illumiQUOTE',
+        },
+      ],
     },
     {
       title: 'User Experience Developer',

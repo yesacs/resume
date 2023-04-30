@@ -1,26 +1,33 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Header from './header.jsx'
-import Footer from './footer.jsx'
 import Job from './section/job.jsx'
-import Skill from './section/skill.jsx'
+
+import css from '../static/img/css.png'
+import sass from '../static/img/sass.png'
+import html from '../static/img/html.png'
+import js from '../static/img/js.png'
+import node from '../static/img/node.png'
+import react from '../static/img/react.png'
+import redux from '../static/img/redux.png'
+import clojure from '../static/img/clojure.png'
+import htmx from '../static/img/htmx.png'
 
 const { string, array } = PropTypes,
   getJobs = ({ jobs }) => jobs.map((j, i) => <Job key={i} {...j} />),
-  getSkills = ({ skills }) => skills.map((s, i) => <Skill key={i} {...s} />),
   Resume = function (props) {
-    let [activeTab, setActiveTab] = useState('experience')
-
     return (
-      <span>
+      <div className="resume">
         <Header {...props} />
-        <section className="jobs">{getJobs(props)}</section>
-        <section className="skills">{getSkills(props)}</section>
-        <section className="offline">
-          <p className="offline p-block">{props.offline}</p>
-        </section>
-        <Footer content={props.footer} repoUrl={props.repoUrl} />
-      </span>
+        <div className="main">
+          <section className="jobs">{getJobs(props)}</section>
+          <section className="skill-logos">
+            {[html, css, js, node, sass, react, redux, clojure, htmx].map(i => (
+              <img key={i} src={i} />
+            ))}
+          </section>
+        </div>
+      </div>
     )
   }
 

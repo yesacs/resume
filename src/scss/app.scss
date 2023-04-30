@@ -5,12 +5,17 @@
 
 $job-border-width: 10px;
 
+@mixin title {
+  font-family: 'Bebas Neue', sans-serif;
+  //font-variant: small-caps;
+}
+
 body {
   line-height: 1.2em;
+  background: #f5f5f5;
 
-  .main {
-    margin: 0 auto 56px;
-    padding-bottom: 24px;
+  .resume {
+    display: flex;
   }
 
   .footer {
@@ -32,23 +37,31 @@ body {
     margin-top: 24px;
   }
 
-  header {
-    color: #fff;
-    position: sticky;
-    background: linear-gradient(#000, #444);
-    font-family: 'Bebas Neue', cursive;
+  header.main-header {
+    @include title;
 
-    &.main-header {
-      padding-top: 36px;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
+    color: #fff;
+    background: linear-gradient(#000, #444);
+    padding: 2rem 3rem 2rem 1rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
 
     h1 {
       font-size: 48px;
+      line-height: 36px;
       margin-top: 0;
-      margin-bottom: 12px;
+
+      small {
+        display: block;
+        font-size: 14px;
+        line-height: 12px;
+      }
     }
+
     p {
       margin-bottom: 12px;
     }
@@ -71,44 +84,68 @@ body {
 
       &.is-active a {
         border: none;
-        background-color: transparent;
+        background-color: #f5f5f5 !important;
         position: relative;
       }
     }
   }
 
-  .jobs {
-    margin: 3rem auto;
-    width: 75%;
+  .main {
+    max-width: 1500px;
+    padding: 2rem 3rem;
+
+    h1 {
+      @include title;
+
+      font-size: 70px;
+      line-height: 35px;
+    }
+  }
+
+  .skill-logos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+
+    img {
+      height: 80px;
+    }
+  }
+
+  .jobs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   section {
-    background: #fff;
+    margin-bottom: 3rem;
 
     .objective {
       padding-top: 24px;
     }
 
     &.job {
-      flex: 0 1 100%;
+      flex: 0 1 49%;
       display: flex;
       flex-direction: column;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid #aaa;
+      border-right: 1px solid #aaa;
       font-size: 14px;
+      margin: 1rem 0;
+      background: #fff;
 
       & > div {
         padding: 2rem;
         flex: 1;
       }
 
-      &:first-child {
-        flex: 0 0 100%;
-      }
+      //&:first-child {
+      //  flex: 0 1 100%;
+      //}
 
       .job-logo {
-        height: 50px;
+        width: 200px;
       }
 
       .job-details {
@@ -119,18 +156,53 @@ body {
 
       .job-description {
         flex: 0 0 60%;
-        font-size: 12px;
+        font-size: 14px;
+
+        h3 {
+          @include title;
+
+          font-weight: bold;
+          font-size: 18px;
+
+          small {
+            display: block;
+            color: #aaa;
+            font-size: 65%;
+          }
+        }
+        em {
+          font-style: normal;
+          font-weight: 600;
+          color: black;
+          padding: 0 0.15em;
+          background-color: #fffab0;
+          border-bottom: 1px dotted black;
+        }
+      }
+
+      .external-link {
+        i {
+          font-size: 14px;
+          line-height: 18px;
+          padding-left: 0.25em;
+          margin-top: -0.2em;
+        }
       }
 
       .job-tools {
-        flex: 0 0 20%;
-        font-family: 'Bebas Neue', cursive;
+        @include title;
+
+        flex: 0 0 35%;
 
         ul {
-          padding: 1rem;
+          padding: 1rem 0;
+          display: flex;
+          flex-wrap: wrap;
 
           li {
-            font-size: 18px;
+            font-size: 16px;
+            padding: 4px 4px 2px;
+            margin: 4px;
           }
         }
       }
@@ -139,15 +211,6 @@ body {
         color: #222;
         font-weight: 900;
         font-size: 1rem;
-      }
-
-      em {
-        font-style: normal;
-        font-weight: 600;
-        color: black;
-        padding: 0 0.15em;
-        background-color: yellow;
-        border-bottom: 1px dotted black;
       }
 
       p.company {
@@ -172,8 +235,9 @@ body {
           & > div {
             border-left: $job-border-width solid $base;
           }
-          .job-tools ul {
+          .job-tools ul li {
             background-color: rgba($base, 0.2);
+            box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.3);
           }
         }
       }
