@@ -45,6 +45,7 @@ export default {
       location: { city: 'Williston', state: 'VT' },
       logo: logoFrikin,
       tools: ['React', 'Redux', 'HTMX', 'Clojure', 'Sass', 'Node', 'Git'],
+      current: true,
       description: (
         <>
           <p>
@@ -98,7 +99,12 @@ export default {
         </>
       ),
       class: 'pwnie',
-      links: [],
+      links: [
+        {
+          url: 'https://web.archive.org/web/20190920093830/https://www.pwnieexpress.com/pulse',
+          label: 'PwnPulse (Archive.org)',
+        },
+      ],
     },
     {
       title: 'User Interface Developer',
@@ -107,7 +113,23 @@ export default {
       location: { city: 'Burlingon', state: 'VT' },
       logo: logoDealer,
       duration: { start: 2010, end: 2015 },
-      descripion: 'test',
+      description: (
+        <>
+          <p>
+            Dealer.com, which is now a part of Cox Automotive, specializes in
+            end-to-end online marketing solutions for car dealers. This
+            includes, but isn't limited to, websites, SEM and SEO, and repuation
+            management.
+          </p>
+          <p>
+            At Dealer.com, I was part of their first foray into dealership
+            operations software. I was one of two UI developers on the team and
+            my responsiblities included the visual design and user experience of
+            the CRM tool used by our dealership customers to manage their daily
+            tasks as well as future sales prospects and current opporunities.
+          </p>
+        </>
+      ),
       duties: [
         'UI/UX developer and designer for DT CRM, the fastest growing automotive CRM in the US',
         'Designed and developed the Dealer.com Pencil Tool, a realtime car payment engine',
@@ -115,7 +137,17 @@ export default {
         'Met face-to-face with our dealership customers for demos and feedback',
         'Created internal CRM for in-house sales teams using Grails',
       ],
-      tools: ['React', 'Redux', 'Groovy/Grails', 'YUI', 'Node', 'Sass', 'Git'],
+      tools: [
+        'React',
+        'Redux',
+        'Knockout',
+        'jQuery',
+        'Groovy/Grails',
+        'YUI',
+        'Node',
+        'Sass',
+        'Git',
+      ],
       links: [
         { url: 'http://www.dealer.com', label: 'Dealer.com' },
         { url: 'http://www.coxautoinc.com/', label: 'Cox Automotive' },
@@ -129,14 +161,19 @@ export default {
       location: { city: 'Burlingon', state: 'VT' },
       logo: logoPropeller,
       duration: { start: 2009, end: 2010 },
-      duties: [
+      description: (
+        <>
+          <p>Propeller</p>
+        </>
+      ),
+      xduties: [
         'Senior PHP developer for one of the most established web firms in Burlington',
         'Maintenance and additional development on 40+ existing client sites',
         'Research of new and progressing technology for integration into existing products',
         'Consulting on CSS and JS possibilities for design projects',
         'Prototyping next generation of in-house CMS system in Ruby on Rails',
       ],
-      tools: ['PHP', 'ES5', 'CSS', 'SVN'],
+      tools: ['PHP', 'ES5', 'jQuery', 'CSS', 'SVN'],
       links: [
         { url: 'http://www.propelled.com', label: 'Propeller Media Works' },
       ],
@@ -149,7 +186,7 @@ export default {
       location: { city: 'Burlingon', state: 'VT' },
       logo: logoEpikone,
       duration: { start: 2007, end: 2009 },
-      tools: ['Ruby/Rails', 'ES5', 'CSS', 'SVN'],
+      tools: ['Ruby/Rails', 'ES5', 'jQuery', 'CSS', 'SVN'],
       duties: [
         'Lead Ruby on Rails developer for one of the premier Google Analytics Authorized Consultancies',
         "Led development of SiteScan and AnalyticsView, EpikOne's two general public apps",
@@ -160,8 +197,10 @@ export default {
       ],
       links: [
         {
-          url: 'https://web.archive.org/web/20090503125637/http://www.epikone.com/',
-          label: 'EpikOne at Archive.org',
+          url:
+            'https://web.' +
+            'archive.org/web/20090503125637/http://www.epikone.com/',
+          label: 'EpikOne (Archive.org)',
         },
       ],
       class: 'epikone',

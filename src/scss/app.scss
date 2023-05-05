@@ -1,98 +1,26 @@
-@import 'node_modules/bulma/sass/utilities/initial-variables';
-@import 'node_modules/bulma/bulma';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
-@import 'https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap';
-
-$job-border-width: 10px;
-
-@mixin title {
-  font-family: 'Bebas Neue', sans-serif;
-  //font-variant: small-caps;
-}
+@import './mixins.scss';
 
 body {
   line-height: 1.2em;
-  background: #f5f5f5;
+  background: linear-gradient(aliceblue, #f5f5f5);
 
   .resume {
     display: flex;
-  }
+    justify-content: center;
 
-  .footer {
-    background-color: #ccccce;
-  }
-
-  .social {
-    margin-bottom: 20px;
-    a {
-      background-repeat: no-repeat;
-      background-position: top left;
-      background-size: contain;
-      display: inline-block;
-      margin: 0 6px 0 0;
-    }
-  }
-
-  .p-block {
-    margin-top: 24px;
-  }
-
-  header.main-header {
-    @include title;
-
-    color: #fff;
-    background: linear-gradient(#000, #444);
-    padding: 2rem 3rem 2rem 1rem;
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    //justify-content: space-between;
-
-    h1 {
-      font-size: 48px;
-      line-height: 36px;
-      margin-top: 0;
-
-      small {
-        display: block;
-        font-size: 14px;
-        line-height: 12px;
-      }
-    }
-
-    p {
-      margin-bottom: 12px;
-    }
-
-    &.section-header {
-      padding-bottom: 10px;
-      padding-top: 0px;
-      background: #f5f5f5;
-    }
-  }
-
-  .nav-tabs {
-    ul {
-      border-bottom: none;
-    }
-    li {
-      a {
-        color: #fff;
-      }
-
-      &.is-active a {
-        border: none;
-        background-color: #f5f5f5 !important;
-        position: relative;
-      }
+    @include media('<=desktop') {
+      flex-direction: column;
     }
   }
 
   .main {
-    max-width: 1500px;
-    padding: 2rem 3rem;
+    padding: 0rem 3rem 2rem;
+    flex: 1 0 70%;
+    max-width: 2000px;
+
+    @include media('<=tablet') {
+      padding: 0;
+    }
 
     h1 {
       @include title;
@@ -102,175 +30,71 @@ body {
     }
   }
 
-  .skill-logos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-    img {
-      height: 80px;
-    }
-  }
-
-  .jobs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
   section {
     margin-bottom: 3rem;
-
-    .objective {
-      padding-top: 24px;
-    }
-
-    &.job {
-      flex: 0 1 49%;
-      display: flex;
-      flex-direction: column;
-      border-bottom: 1px solid #aaa;
-      border-right: 1px solid #aaa;
-      font-size: 14px;
-      margin: 1rem 0;
-      background: #fff;
-
-      & > div {
-        padding: 2rem;
-        flex: 1;
-      }
-
-      //&:first-child {
-      //  flex: 0 1 100%;
-      //}
-
-      .job-logo {
-        width: 200px;
-      }
-
-      .job-details {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-      }
-
-      .job-description {
-        flex: 0 0 60%;
-        font-size: 14px;
-
-        h3 {
-          @include title;
-
-          font-weight: bold;
-          font-size: 18px;
-
-          small {
-            display: block;
-            color: #aaa;
-            font-size: 65%;
-          }
-        }
-        em {
-          font-style: normal;
-          font-weight: 600;
-          color: black;
-          padding: 0 0.15em;
-          background-color: #fffab0;
-          border-bottom: 1px dotted black;
-        }
-      }
-
-      .external-link {
-        i {
-          font-size: 14px;
-          line-height: 18px;
-          padding-left: 0.25em;
-          margin-top: -0.2em;
-        }
-      }
-
-      .job-tools {
-        @include title;
-
-        flex: 0 0 35%;
-
-        ul {
-          padding: 1rem 0;
-          display: flex;
-          flex-wrap: wrap;
-
-          li {
-            font-size: 16px;
-            padding: 4px 4px 2px;
-            margin: 4px;
-          }
-        }
-      }
-
-      .heading {
-        color: #222;
-        font-weight: 900;
-        font-size: 1rem;
-      }
-
-      p.company {
-        margin-top: 6px;
-      }
-
-      $base-colors: (
-        'bluehouse': rgb(90, 33, 181),
-        'epikone': #549dd2,
-        'propeller': #2d2d2d,
-        'ddc': #f60,
-        'pwnie': #e35205,
-        'frikin': #deb053,
-      );
-
-      @each $job, $base in $base-colors {
-        &.#{$job} {
-          a {
-            color: $base;
-            font-weight: 700;
-          }
-          & > div {
-            border-left: $job-border-width solid $base;
-          }
-          .job-tools ul li {
-            background-color: rgba($base, 0.2);
-            box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.3);
-          }
-        }
-      }
-    }
-
-    &.skill {
-      border-bottom: 1px solid #eee;
-      padding-top: 18px;
-      padding-bottom: 18px;
-      background: #fff;
-
-      ul {
-        list-style: none;
-        padding-left: 0;
-        li {
-          padding-left: 0;
-        }
-      }
-
-      .gutter {
-        div {
-          padding-bottom: 18px;
-          padding-top: 6px;
-          text-align: left;
-          color: #999;
-        }
-      }
-    }
   }
 
   footer {
     margin: 24px;
     text-align: center;
     color: #ddd;
+  }
+
+  .diploma {
+    position: relative;
+    max-width: 350px;
+
+    &::before {
+      content: '';
+      border: 1px solid #333;
+      transform: rotate(45deg);
+      position: absolute;
+      top: -0.5rem;
+      left: 45%;
+      width: 50px;
+      height: 50px;
+      z-index: 0;
+    }
+
+    .diploma-frame {
+      font-family: cursive;
+      font-size: 14px;
+      background: #fff;
+      box-shadow: 3px 3px 10px rgba(#000, 0.5);
+      border: 8px solid brown;
+      border-top: 8px solid darken(brown, 8%);
+      border-left: 8px solid darken(brown, 8%);
+      padding: 1rem;
+      transform: rotate(2.5deg);
+      margin-top: 4rem;
+      z-index: 2;
+
+      .diploma-mat {
+        background: #fff;
+        padding: 1rem;
+      }
+
+      .diploma-paper {
+        background: lighten(tan, 25%);
+        padding: 1rem;
+        display: flex;
+
+        border: 2px solid #ccc;
+        border-top: 2px solid #999;
+        border-left: 2px solid #999;
+      }
+
+      .fa-solid {
+        font-size: 36px;
+        color: gold;
+        margin-right: 1rem;
+        text-shadow: 1px 1px 0px rgba(#000, 0.1);
+      }
+
+      .degree {
+        font-weight: 900;
+        font-size: 18px;
+      }
+    }
   }
 }

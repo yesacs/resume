@@ -13,9 +13,13 @@ import redux from '../static/img/redux.png'
 import clojure from '../static/img/clojure.png'
 import htmx from '../static/img/htmx.png'
 
+import '/src/scss/app.scss'
+
 const { string, array } = PropTypes,
   getJobs = ({ jobs }) => jobs.map((j, i) => <Job key={i} {...j} />),
-  Resume = function (props) {
+  Resume = function(props) {
+    let { education } = props
+
     return (
       <div className="resume">
         <Header {...props} />
@@ -26,6 +30,27 @@ const { string, array } = PropTypes,
               <img key={i} src={i} />
             ))}
           </section>
+
+          <div className="diploma">
+            <div className="diploma-frame">
+              <div className="diploma-mat">
+                <div className="diploma-paper">
+                  <i className="fa-solid fa-award" />
+                  <div>
+                    <div className="degree">{education.degree}</div>
+                    <div>{education.school}</div>
+                    <div>
+                      {education.location.city}, {education.location.state}
+                    </div>
+                    <div>
+                      {education.duration.start} &mdash;{' '}
+                      {education.duration.end}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     )

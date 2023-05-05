@@ -1,15 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const { string, any } = PropTypes,
-  getDuties = ({ duties = [] }) => duties.map((d, i) => <li key={i}>{d}</li>),
+import '/src/scss/job.scss'
+
+const { string, any, bool } = PropTypes,
   getLinks = ({ links = [] }) =>
     links.map((l, i) => (
       <li key={i} className="external-link">
-        <a href={l.url}>
-          {l.label}
-          <i className="fa-sharp fa-solid fa-up-right-from-square" />
-        </a>
+        <a href={l.url}>{l.label}</a>
       </li>
     )),
   JobContent = props => {
@@ -17,43 +15,42 @@ const { string, any } = PropTypes,
       title,
       company,
       duration = {},
-      links = [],
       description,
       logo,
       tools = [],
+      current,
     } = props
 
     return (
-      <div>
-        <div className="job-content">
-          <div className="job-details">
-            <div className="job-description">
-              <h3>
-                {title} @ {company}
-                <small>
-                  {duration.start} &mdash; {duration.end || 'Present'}
-                </small>
-              </h3>
-              <p>{description}</p>
-              <ul className="duties">{getDuties(props)}</ul>
-            </div>
-            <div className="job-tools">
-              <img className="job-logo" src={logo} />
-              <ul>
-                {tools.map(t => (
-                  <li>{t}</li>
-                ))}
-                {getLinks(props)}
-              </ul>
-            </div>
+      <div className="job-content">
+        <div className="job-details">
+          <div className="job-description">
+            <h3>
+              {title} @ {company}
+              <small>
+                {duration.start} &mdash; {duration.end || 'Present'}
+              </small>
+            </h3>
+            <div>{description}</div>
+          </div>
+          <div className="job-tools">
+            <img className="job-logo" src={logo} />
+            <ul>
+              {tools.map(t => (
+                <li>{t}</li>
+              ))}
+              {getLinks(props)}
+            </ul>
           </div>
         </div>
+
+        {current && <div className="ribbon">I work here!</div>}
       </div>
     )
   },
-  Job = function (props) {
+  Job = function(props) {
     return (
-      <section className={'job ' + props.class}>
+      <section className={'job job-' + props.class}>
         <JobContent {...props} />
       </section>
     )
@@ -66,6 +63,7 @@ JobContent.propTypes = {
   timeAtPosition: string,
   logo: any,
   tools: any,
+  current: bool,
 }
 
 export default Job

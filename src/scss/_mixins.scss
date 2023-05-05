@@ -1,0 +1,18 @@
+@import 'node_modules/bulma/sass/utilities/initial-variables';
+@import 'node_modules/bulma/bulma';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';
+@import 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Petit+Formal+Script&display=swap';
+
+$breakpoints: (
+  phone: 320px,
+  tablet: 768px,
+  desktop: 1300px,
+);
+
+@import 'node_modules/include-media/dist/_include-media.scss';
+
+$job-border-width: 10px;
+
+@mixin title {
+  font-family: 'Bebas Neue', sans-serif;
+}
