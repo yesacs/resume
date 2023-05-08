@@ -163,17 +163,24 @@ export default {
       duration: { start: 2009, end: 2010 },
       description: (
         <>
-          <p>Propeller</p>
+          <p>
+            Propeller is a longtime fixture in the Burlington web dev world.
+            Specializing in ADA compliant and accessable websites, their work
+            covers of broad set of industries, including high-fashion brands,
+            ski resorts, medical and ecommerce.
+          </p>
+          <p>
+            During my time with Propeller, I was an Interactive Developer, the
+            primary on-staff developer responsible for maintaining the 60+
+            websites in the companies care at the time. I worked closely with
+            designers, taking PSD site mockups and turing them into reality
+            using a combination of PHP, CSS and JS. I maintained the in-house
+            CMS used to create these sites, and I protoyped a next-gen version
+            that used Ruby on Rails.
+          </p>
         </>
       ),
-      xduties: [
-        'Senior PHP developer for one of the most established web firms in Burlington',
-        'Maintenance and additional development on 40+ existing client sites',
-        'Research of new and progressing technology for integration into existing products',
-        'Consulting on CSS and JS possibilities for design projects',
-        'Prototyping next generation of in-house CMS system in Ruby on Rails',
-      ],
-      tools: ['PHP', 'ES5', 'jQuery', 'CSS', 'SVN'],
+      tools: ['PHP', 'ES5', 'jQuery', 'CSS', 'SVN', 'Ruby on Rails'],
       links: [
         { url: 'http://www.propelled.com', label: 'Propeller Media Works' },
       ],
@@ -187,7 +194,26 @@ export default {
       logo: logoEpikone,
       duration: { start: 2007, end: 2009 },
       tools: ['Ruby/Rails', 'ES5', 'jQuery', 'CSS', 'SVN'],
-      duties: [
+      description: (
+        <>
+          <p>
+            EpikOne was one of the first Google Analytics Authorized
+            Consultancies (GAAC) in the country, providing tools and expertise
+            to businesses of all sizes, from small choclate shops looking for
+            basic help with online marketing concepts to international
+            corporations looking for deep analysis to inform online ad campaign
+            spends.
+          </p>
+          <p>
+            At EpikOne, I built a suite of tools used by our customers to manage
+            and verify their GA installs and generate cross-account reporting
+            for complex GA setups. I also conceieved a centralized management
+            tool used by our consults and their clients to manage all aspects of
+            their projects, including threaded comms and project timelines.
+          </p>
+        </>
+      ),
+      xduties: [
         'Lead Ruby on Rails developer for one of the premier Google Analytics Authorized Consultancies',
         "Led development of SiteScan and AnalyticsView, EpikOne's two general public apps",
         'Built DigitalMIDI, a marketing communications dashboard for enterprise',
@@ -211,7 +237,25 @@ export default {
       logo: logoBluehouse,
       location: { city: 'Richmond', state: 'VT' },
       duration: { start: 2005, end: 2007 },
-      duties: [
+      description: (
+        <>
+          <p>
+            Bluehouse Group is small but skilled full-service web design and
+            development house that creates websites for a broad spectrum of
+            industries.
+          </p>
+          <p>
+            At Bluehouse, I worked as the front-end developer on a team of four,
+            taking PSD desgins from our in-house designer and converting them to
+            HTML/CSS/JS to first create static sites, then worked with out back
+            end developer to make them dynamic using PHP. While at Bluehouse, I
+            worked on 30+ websites ranging in all sizes from pro-bono sites for
+            non-profits to large, bespoke ecommerce solutions for built to order
+            furniture.
+          </p>
+        </>
+      ),
+      xduties: [
         'Developer of standards-based HTML and CSS, and PHP sites ranging from simple brochure sites to high-end e-commerce',
         'Web site production, development, and maintenance of over 30 sites',
         'Translation of designs from Photoshop into HTML and CSS',
