@@ -55,11 +55,10 @@ export default {
             rebates, fees and taxes included.
           </p>
           <p>
-            As <em>Head of Product Design</em> and sole <em>UI/UX Developer</em>{' '}
-            , I am responsible for the{' '}
-            <em>design, development and maintenence</em> of the front end user
-            interfaces used by our car dealer customers, as well as the shopping
-            experiences used by car shoppers.
+            As Head of Product Design and sole UI/UX Developer , I am
+            responsible for the design, development and maintenence of the front
+            end user interfaces used by our car dealer customers, as well as the
+            shopping experiences used by car shoppers.
           </p>
         </>
       ),
@@ -315,5 +314,29 @@ export default {
         'Google Apps',
       ],
     },
+  ],
+  hobbies: [
+    <>
+      I love to play board games. My favorite game is Bus!
+      <br /> See my plays on{' '}
+      <a href="https://boardgamegeek.com/user/yesacs">BGG</a>!
+    </>,
+    <>
+      I bike! I own five bikes! Want to buy a bike!?
+      <br /> Give me kudos on{' '}
+      <a href="https://www.strava.com/athletes/62551764">Strava</a>
+    </>,
+    <>
+      I'm on <a href="https://github.com/yesacs">Github</a> for my personal
+      projects.
+      <br />
+      Hope you like dotfiles!
+    </>,
+    <>
+      I'm on <a href="https://www.linkedin.com/in/caseypsullivan/">LinkedIn</a>
+    </>,
+    <>
+      I'm on <a href="https://twitter.com/casey_sullivan">Twitter</a>
+    </>,
   ],
 }

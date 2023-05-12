@@ -16,9 +16,12 @@ const { string } = PropTypes,
               {position}
               <br />
               {location}
+              <br />
             </small>
           </h1>
         </div>
+
+        <div className="contact">casey dot sullivan at gmail dot com</div>
       </header>
     )
   }

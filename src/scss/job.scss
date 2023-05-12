@@ -4,10 +4,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
 
   img {
     height: 40px;
     margin: 2rem;
+  }
+  h3 {
+    @include title;
+
+    color: #999;
   }
 }
 

@@ -1,17 +1,18 @@
+@use 'sass:color';
+
 @import './mixins.scss';
 
 header.main-header {
   @include title;
 
   color: #000;
-  padding: 1rem 3rem;
+  padding: 1.5rem 3rem 1rem;
   position: sticky;
   top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
-  background: rgbq(#fff, 0.1);
   backdrop-filter: blur(24px);
 
   @include media('>desktop') {
@@ -19,7 +20,7 @@ header.main-header {
     height: 100vh;
     flex-direction: column;
     padding: 2rem 3rem 2rem 2rem;
-    align-items: end;
+    align-items: left;
   }
 
   @include media('<=tablet') {
@@ -52,10 +53,5 @@ header.main-header {
     padding-bottom: 10px;
     padding-top: 0px;
     background: #f5f5f5;
-  }
-
-  a {
-    color: #fff;
-    border-bottom: 1px dotted;
   }
 }
