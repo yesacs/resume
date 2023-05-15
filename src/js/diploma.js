@@ -7,7 +7,7 @@ let Diploma = ({ education }) => (
         <div className="diploma-paper">
           <i className="fa-solid fa-award" />
           <div>
-            <div className="degree">{education.degree}</div>
+            <h3 className="degree">{education.degree}</h3>
             <div>{education.school}</div>
             <div>
               {education.location.city}, {education.location.state}

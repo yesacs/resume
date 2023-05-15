@@ -1,59 +1,90 @@
 @import './mixins.scss';
 
 .diploma {
-  position: relative;
-  max-width: 350px;
+  @media screen {
+    position: relative;
+    max-width: 350px;
 
-  &::before {
-    content: '';
-    border: 1px solid #333;
-    transform: rotate(45deg);
-    position: absolute;
-    top: -0.5rem;
-    left: 45%;
-    width: 50px;
-    height: 50px;
-    z-index: 0;
+    &::before {
+      content: '';
+      border: 1px solid #333;
+      transform: rotate(45deg);
+      position: absolute;
+      top: -0.5rem;
+      left: 45%;
+      width: 50px;
+      height: 50px;
+      z-index: 0;
+    }
+
+    .diploma-frame {
+      font-family: cursive;
+      font-size: 14px;
+      background: #fff;
+      box-shadow: 3px 3px 10px rgba(#000, 0.5);
+      border: 8px solid brown;
+      border-top: 8px solid darken(brown, 8%);
+      border-left: 8px solid darken(brown, 8%);
+      padding: 1rem;
+      transform: rotate(2.5deg);
+      margin-top: 0.5rem;
+      z-index: 2;
+
+      .diploma-mat {
+        background: #fff;
+        padding: 1rem;
+      }
+
+      .diploma-paper {
+        background: lighten(tan, 25%);
+        padding: 1rem;
+        display: flex;
+
+        border: 2px solid #ccc;
+        border-top: 2px solid #999;
+        border-left: 2px solid #999;
+      }
+
+      .fa-solid {
+        font-size: 36px;
+        color: gold;
+        margin-right: 1rem;
+        text-shadow: 1px 1px 0px rgba(#000, 0.1);
+      }
+
+      .degree {
+        font-weight: 900;
+        font-size: 18px;
+      }
+    }
   }
 
-  .diploma-frame {
-    font-family: cursive;
-    font-size: 14px;
-    background: #fff;
-    box-shadow: 3px 3px 10px rgba(#000, 0.5);
-    border: 8px solid brown;
-    border-top: 8px solid darken(brown, 8%);
-    border-left: 8px solid darken(brown, 8%);
-    padding: 1rem;
-    transform: rotate(2.5deg);
-    margin-top: 0.5rem;
-    z-index: 2;
-
-    .diploma-mat {
-      background: #fff;
-      padding: 1rem;
-    }
-
-    .diploma-paper {
-      background: lighten(tan, 25%);
-      padding: 1rem;
-      display: flex;
-
-      border: 2px solid #ccc;
-      border-top: 2px solid #999;
-      border-left: 2px solid #999;
-    }
+  @media print {
+    font-size: 11px;
+    line-height: 12px;
 
     .fa-solid {
-      font-size: 36px;
-      color: gold;
-      margin-right: 1rem;
-      text-shadow: 1px 1px 0px rgba(#000, 0.1);
+      display: none;
     }
 
-    .degree {
-      font-weight: 900;
-      font-size: 18px;
+    h3 {
+      @include title;
+      font-size: 16px;
+
+      & > * {
+        margin-right: 0.25em;
+      }
+
+      small {
+        color: #aaa;
+        font-size: 65%;
+        display: block;
+
+        @media print {
+          color: #333;
+          display: inline;
+        }
+      }
     }
   }
 }

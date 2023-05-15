@@ -18,6 +18,10 @@
 
     color: #999;
   }
+
+  @media print {
+    display: none;
+  }
 }
 
 .jobs {
@@ -30,13 +34,23 @@ section.job {
   flex: 0 1 49%;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #aaa;
-  border-right: 1px solid #aaa;
   font-size: 14px;
   margin: 1rem 0;
   background: #fff;
   position: relative;
   overflow: hidden;
+
+  @media screen {
+    border-bottom: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+  }
+
+  @media print {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    flex: 0;
+  }
 
   .ribbon {
     color: #fff;
@@ -48,6 +62,10 @@ section.job {
     padding: 0.5em 5em;
     font-weight: bold;
     text-shadow: 1px 1px 0 rgba(#000, 0.2);
+
+    @media print {
+      display: none;
+    }
   }
 
   @include media('<=desktop') {
@@ -57,10 +75,18 @@ section.job {
   & > div {
     padding: 2rem;
     height: 100%;
+
+    @media print {
+      padding: 0.5em 0;
+    }
   }
 
   .job-logo {
     width: 200px;
+
+    @media print {
+      display: none;
+    }
   }
 
   .job-details {
@@ -71,6 +97,10 @@ section.job {
     @include media('<=tablet') {
       flex-direction: column-reverse;
     }
+
+    @media print {
+      flex-direction: column;
+    }
   }
 
   .job-description {
@@ -79,14 +109,25 @@ section.job {
 
     h3 {
       @include title;
-
-      font-weight: bold;
       font-size: 22px;
 
+      & > * {
+        margin-right: 0.25em;
+      }
+
+      @media print {
+        font-size: 16px;
+      }
+
       small {
-        display: block;
         color: #aaa;
         font-size: 65%;
+        display: block;
+
+        @media print {
+          color: #333;
+          display: inline;
+        }
       }
     }
     em {
@@ -101,6 +142,12 @@ section.job {
       margin: 1rem 0;
       font-size: 13px;
       line-height: 15px;
+
+      @media print {
+        margin: 0.25em 0;
+        font-size: 11px;
+        line-height: 12px;
+      }
     }
   }
 
@@ -114,27 +161,43 @@ section.job {
       display: flex;
       flex-wrap: wrap;
 
+      @media print {
+        padding: 0.25em 0;
+      }
+
       li {
         font-size: 16px;
         padding: 4px 4px 2px;
         margin: 4px 8px 4px 0;
         transition: all 100ms ease;
 
+        @media print {
+          padding: 0;
+          margin: 0;
+          margin-right: 0.5em;
+          font-size: 12px;
+        }
+
         &:hover {
           transform: scale(1.3);
         }
+        a {
+          @media print {
+            display: none;
+          }
 
-        a::after {
-          display: inline-block;
-          font-style: normal;
-          font-variant: normal;
-          text-rendering: auto;
-          -webkit-font-smoothing: antialiased;
-          font-family: 'Font Awesome 6 Free';
-          content: '\f35d';
-          padding-left: 0.25em;
-          margin-top: -1em;
-          font-size: 90%;
+          &::after {
+            display: inline-block;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            font-family: 'Font Awesome 6 Free';
+            content: '\f35d';
+            padding-left: 0.25em;
+            margin-top: -1em;
+            font-size: 90%;
+          }
         }
       }
     }
@@ -166,13 +229,14 @@ section.job {
         font-weight: 700;
       }
       & > div {
-        border-left: $job-border-width solid $base;
-      }
-      .job-tools ul li {
-        background-color: lighten($base, 35%);
-        box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.3);
-        //border-bottom: 1px solid $base;
-        //border-right: 1px solid $base;
+        @media screen {
+          border-left: $job-border-width solid $base;
+
+          .job-tools ul li {
+            background-color: lighten($base, 35%);
+            box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.3);
+          }
+        }
       }
     }
   }

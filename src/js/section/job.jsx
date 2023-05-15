@@ -26,8 +26,8 @@ const { string, any, bool } = PropTypes,
         <div className="job-details">
           <div className="job-description">
             <h3>
-              {title}
-              <br />@ {company}
+              <span>{title}</span>
+              <span>@ {company}</span>
               <small>
                 {duration.start} &mdash; {duration.end || 'Present'}
               </small>
@@ -49,7 +49,7 @@ const { string, any, bool } = PropTypes,
       </div>
     )
   },
-  Job = function (props) {
+  Job = function(props) {
     return (
       <section className={'job job-' + props.class}>
         <JobContent {...props} />

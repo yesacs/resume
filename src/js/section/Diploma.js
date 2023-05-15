@@ -8,12 +8,18 @@ let Diploma = ({ education }) => (
         <div className="diploma-paper">
           <i className="fa-solid fa-award" />
           <div>
-            <div className="degree">{education.degree}</div>
-            <div>{education.school}</div>
+            <h3 className="degree">
+              <span>{education.degree}</span>
+              <span className="print-only">@ {education.school}</span>
+              <small className="print-only">
+                {education.duration.start} &mdash; {education.duration.end}
+              </small>
+            </h3>
+            <div className="screen-only">{education.school}</div>
             <div>
               {education.location.city}, {education.location.state}
             </div>
-            <div>
+            <div className="screen-only">
               {education.duration.start} &mdash; {education.duration.end}
             </div>
           </div>

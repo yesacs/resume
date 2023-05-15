@@ -1,6 +1,10 @@
 @import './mixins.scss';
 
 ul.hobbies {
+  @media print {
+    display: none;
+  }
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

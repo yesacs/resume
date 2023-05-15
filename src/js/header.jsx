@@ -21,7 +21,11 @@ const { string } = PropTypes,
           </h1>
         </div>
 
-        <div className="contact">casey dot sullivan at gmail dot com</div>
+        <div className="contact">
+          casey dot sullivan at gmail dot com
+          <br />
+          github/yesacs
+        </div>
       </header>
     )
   }
