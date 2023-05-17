@@ -4,6 +4,8 @@ My resume, in React form
 
 ### Commands
 
-#### yarn parcel
+#### yarn start
+
+#### yarn build
 
 http://yesacs.github.io/resume/
