@@ -24,7 +24,13 @@ const { string } = PropTypes,
         <div className="contact">
           casey dot sullivan at gmail dot com
           <br />
-          github/yesacs
+          <a href="https://www.linkedin.com/in/caseypsullivan/">
+            linkedin/in/caseypsullivan
+          </a>
+          <br />
+          <a href="https://casey.pizza">casey.pizza</a>
+          <br />
+          <a href="https://github.com/yesacs">github/yesacs</a>
         </div>
       </header>
     )

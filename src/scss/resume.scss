@@ -48,8 +48,13 @@ body {
     @media screen {
       margin-bottom: 6rem;
     }
+
     @media print {
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 0rem;
+      }
     }
   }
 

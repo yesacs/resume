@@ -48,7 +48,7 @@ section.job {
   @media print {
     font-size: 12px;
     margin: 0;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
     flex: 0;
   }
 
@@ -77,7 +77,7 @@ section.job {
     height: 100%;
 
     @media print {
-      padding: 0.5em 0;
+      padding: 0rem 0 0.75rem;
     }
   }
 
@@ -146,7 +146,7 @@ section.job {
       @media print {
         margin: 0.25em 0;
         font-size: 11px;
-        line-height: 12px;
+        line-height: 11px;
       }
     }
   }
