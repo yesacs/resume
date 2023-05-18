@@ -9,6 +9,10 @@ ul.hobbies {
   flex-wrap: wrap;
   justify-content: center;
 
+  @include media('<=tablet') {
+    flex-direction: column;
+  }
+
   li {
     border-top: 1px solid #ccc;
     border-left: 1px solid #ccc;

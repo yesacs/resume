@@ -49,16 +49,17 @@ export default {
       description: (
         <>
           <p>
-            FRIKINtech provides car dealers with a unique toolset to cultivate
-            their existing customer base by automating the delivery of
-            personalized car payments using customer real equity, along with
-            rebates, fees and taxes included.
+            FRIKINtech provides car dealers with a toolset to cultivate their
+            existing customer base by automating the delivery of personalized
+            car payments using customer's real equity, along with rebates, fees
+            and taxes included.
           </p>
           <p>
-            As Head of Product Design and sole UI/UX Developer , I am
-            responsible for the design, development and maintenence of the front
-            end user interfaces used by our car dealer customers, as well as the
-            shopping experiences used by car shoppers.
+            As Head of Product Design and sole UI/UX Developer, I am responsible
+            for the design, development and maintenence of the front end user
+            interfaces of illumiQUOTE, our online shopping presence used by
+            dealers and buyers to lookup equity and build custom, penny-perfect
+            payments.
           </p>
         </>
       ),
@@ -91,9 +92,10 @@ export default {
           </p>
           <p>
             As part of the Burlington based engineering team, I lead the UI/UX
-            design and development of the cloud-based app used by our customers
-            to make sense of the massive amount data that our hardware would
-            collect.
+            design and development of Pulse, the Ember-based cloud app used by
+            our customers to make sense of the massive amount data that our
+            hardware would collect. I also lead design efforts of Pulse v2, a
+            reimagining of Pulse using React and Redux.
           </p>
         </>
       ),

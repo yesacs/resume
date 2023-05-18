@@ -17,6 +17,8 @@
     @include title;
 
     color: #999;
+    flex: 0 0 100%;
+    text-align: center;
   }
 
   @media print {
@@ -39,6 +41,10 @@ section.job {
   background: #fff;
   position: relative;
   overflow: hidden;
+
+  @include media('<=tablet') {
+    margin: 0 0 2rem;
+  }
 
   @media screen {
     border-bottom: 1px solid #aaa;
@@ -142,6 +148,7 @@ section.job {
       margin: 1rem 0;
       font-size: 13px;
       line-height: 15px;
+      color: #000;
 
       @media print {
         margin: 0.25em 0;
