@@ -56,10 +56,10 @@ export default {
           </p>
           <p>
             As Head of Product Design and sole UI/UX Developer, I am responsible
-            for the design, development and maintenence of the front end user
+            for the design, development and maintenance of the front end user
             interfaces of illumiQUOTE, our online shopping presence used by
             dealers and buyers to lookup equity and build custom, penny-perfect
-            payments.
+            Payments.
           </p>
         </>
       ),
@@ -87,13 +87,13 @@ export default {
         <>
           <p>
             Pwnie Express was a cutting-edge firm that equipped cyber security
-            professionals with hardware and software to detect, location and
-            mitigate threats to their coporate or government networks.
+            professionals with hardware and software to detect, locate and
+            mitigate threats to their corporate or government networks.
           </p>
           <p>
             As part of the Burlington based engineering team, I lead the UI/UX
             design and development of Pulse, the Ember-based cloud app used by
-            our customers to make sense of the massive amount data that our
+            our customers to make sense of the massive amount of data that our
             hardware would collect. I also lead design efforts of Pulse v2, a
             reimagining of Pulse using React and Redux.
           </p>
@@ -119,15 +119,16 @@ export default {
           <p>
             Dealer.com, which is now a part of Cox Automotive, specializes in
             end-to-end online marketing solutions for car dealers. This
-            includes, but isn't limited to, websites, SEM and SEO, and repuation
-            management.
+            includes, but isn't limited to, websites, SEM and SEO, and
+            reputation management.
           </p>
           <p>
             At Dealer.com, I was part of their first foray into dealership
             operations software. I was one of two UI developers on the team and
-            my responsiblities included the visual design and user experience of
-            the CRM tool used by our dealership customers to manage their daily
-            tasks as well as future sales prospects and current opporunities.
+            my responsibilities included the visual design and user experience
+            of the CRM tool used by our dealership customers to manage their
+            daily tasks as well as future sales prospects and current
+            opportunities.
           </p>
         </>
       ),
@@ -166,17 +167,17 @@ export default {
         <>
           <p>
             Propeller is a longtime fixture in the Burlington web dev world.
-            Specializing in ADA compliant and accessable websites, their work
-            covers of broad set of industries, including high-fashion brands,
-            ski resorts, medical and ecommerce.
+            Specializing in ADA compliant and accessible websites, their
+            workcovers of broad set of industries, including high-fashion
+            brands, ski resorts, medical and ecommerce.
           </p>
           <p>
             During my time with Propeller, I was an Interactive Developer, the
             primary on-staff developer responsible for maintaining the 60+
-            websites in the companies care at the time. I worked closely with
-            designers, taking PSD site mockups and turing them into reality
+            websites in the company's care at the time. I worked closely with
+            designers, taking PSD site mockups and turning them into reality
             using a combination of PHP, CSS and JS. I maintained the in-house
-            CMS used to create these sites, and I protoyped a next-gen version
+            CMS used to create these sites, and I prototyped a next-gen version
             that used Ruby on Rails.
           </p>
         </>
@@ -198,17 +199,17 @@ export default {
       description: (
         <>
           <p>
-            EpikOne was one of the first Google Analytics Authorized
-            Consultancies (GAAC) in the country, providing tools and expertise
-            to businesses of all sizes, from small choclate shops looking for
-            basic help with online marketing concepts to international
-            corporations looking for deep analysis to inform online ad campaign
-            spends.
+            EpikOne was one of the first Google Analytics
+            AuthorizedConsultancies (GAAC) in the country, providing tools and
+            expertise to businesses of all sizes, from small chocolate shops
+            looking for basic help with online marketing concepts to
+            international corporations looking for deep analysis to inform
+            online ad campaign spends.
           </p>
           <p>
             At EpikOne, I built a suite of tools used by our customers to manage
             and verify their GA installs and generate cross-account reporting
-            for complex GA setups. I also conceieved a centralized management
+            for complex GA setups. I also conceived a centralized management
             tool used by our consults and their clients to manage all aspects of
             their projects, including threaded comms and project timelines.
           </p>
@@ -241,17 +242,17 @@ export default {
       description: (
         <>
           <p>
-            Bluehouse Group is small but skilled full-service web design and
+            Bluehouse Group is a small but skilled full-service web design and
             development house that creates websites for a broad spectrum of
             industries.
           </p>
           <p>
             At Bluehouse, I worked as the front-end developer on a team of four,
-            taking PSD desgins from our in-house designer and converting them to
-            HTML/CSS/JS to first create static sites, then worked with out back
-            end developer to make them dynamic using PHP. While at Bluehouse, I
+            taking PSD designs from our in-house designer and converting them to
+            HTML/CSS/JS to first create static sites, then working with back end
+            developers to make them dynamic using PHP. While at Bluehouse, I
             worked on 30+ websites ranging in all sizes from pro-bono sites for
-            non-profits to large, bespoke ecommerce solutions for built to order
+            nonprofits to large, bespoke ecommerce solutions for built to order
             furniture.
           </p>
         </>
