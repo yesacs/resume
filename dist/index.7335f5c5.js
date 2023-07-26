@@ -28201,7 +28201,7 @@ const { string , any , bool  } = (0, _propTypesDefault.default), getLinks = ({ l
             lineNumber: 11,
             columnNumber: 29
         }, undefined)), JobContent = (props)=>{
-    const { title , company , duration ={} , description , logo , tools =[] , current  } = props;
+    const { title , company , location , duration ={} , description , logo , tools =[] , current  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "job-content",
         children: [
@@ -28217,7 +28217,7 @@ const { string , any , bool  } = (0, _propTypesDefault.default), getLinks = ({ l
                                         children: title
                                     }, void 0, false, {
                                         fileName: "src/js/section/job.jsx",
-                                        lineNumber: 28,
+                                        lineNumber: 29,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -28227,37 +28227,42 @@ const { string , any , bool  } = (0, _propTypesDefault.default), getLinks = ({ l
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/js/section/job.jsx",
-                                        lineNumber: 29,
+                                        lineNumber: 30,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("small", {
                                         children: [
                                             duration.start,
                                             " — ",
-                                            duration.end || "Present"
+                                            duration.end || "Present",
+                                            " |",
+                                            " ",
+                                            location.city,
+                                            ", ",
+                                            location.state
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/js/section/job.jsx",
-                                        lineNumber: 30,
+                                        lineNumber: 31,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/js/section/job.jsx",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: description
                             }, void 0, false, {
                                 fileName: "src/js/section/job.jsx",
-                                lineNumber: 34,
+                                lineNumber: 36,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/js/section/job.jsx",
-                        lineNumber: 26,
+                        lineNumber: 27,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28268,7 +28273,7 @@ const { string , any , bool  } = (0, _propTypesDefault.default), getLinks = ({ l
                                 src: logo
                             }, void 0, false, {
                                 fileName: "src/js/section/job.jsx",
-                                lineNumber: 37,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -28277,26 +28282,26 @@ const { string , any , bool  } = (0, _propTypesDefault.default), getLinks = ({ l
                                             children: t
                                         }, void 0, false, {
                                             fileName: "src/js/section/job.jsx",
-                                            lineNumber: 39,
+                                            lineNumber: 41,
                                             columnNumber: 31
                                         }, undefined)),
                                     getLinks(props)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/js/section/job.jsx",
-                                lineNumber: 38,
+                                lineNumber: 40,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/js/section/job.jsx",
-                        lineNumber: 36,
+                        lineNumber: 38,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/js/section/job.jsx",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 9
             }, undefined),
             current && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28304,13 +28309,13 @@ const { string , any , bool  } = (0, _propTypesDefault.default), getLinks = ({ l
                 children: "I work here!"
             }, void 0, false, {
                 fileName: "src/js/section/job.jsx",
-                lineNumber: 45,
+                lineNumber: 47,
                 columnNumber: 21
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/js/section/job.jsx",
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 12
     }, undefined);
 }, Job = function(props) {
@@ -28320,12 +28325,12 @@ const { string , any , bool  } = (0, _propTypesDefault.default), getLinks = ({ l
             ...props
         }, void 0, false, {
             fileName: "src/js/section/job.jsx",
-            lineNumber: 50,
+            lineNumber: 52,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "src/js/section/job.jsx",
-        lineNumber: 49,
+        lineNumber: 51,
         columnNumber: 12
     }, this);
 };
