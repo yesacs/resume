@@ -28628,6 +28628,7 @@ exports.default = {
             tools: [
                 "React",
                 "Redux",
+                "ES6",
                 "HTMX",
                 "Clojure",
                 "Sass",
@@ -28686,6 +28687,7 @@ exports.default = {
             tools: [
                 "React",
                 "Redux",
+                "ES6",
                 "Ruby/Rails",
                 "Node",
                 "Sass",
@@ -28759,6 +28761,7 @@ exports.default = {
             tools: [
                 "React",
                 "Redux",
+                "ES6",
                 "Knockout",
                 "jQuery",
                 "Groovy/Grails",

@@ -44,7 +44,16 @@ export default {
       industry: 'Car Dealership Operations',
       location: { city: 'Williston', state: 'VT' },
       logo: logoFrikin,
-      tools: ['React', 'Redux', 'HTMX', 'Clojure', 'Sass', 'Node', 'Git'],
+      tools: [
+        'React',
+        'Redux',
+        'ES6',
+        'HTMX',
+        'Clojure',
+        'Sass',
+        'Node',
+        'Git',
+      ],
       current: true,
       description: (
         <>
@@ -82,7 +91,16 @@ export default {
       logo: logoPwnie,
       duration: { start: 2015, end: 2018 },
       duties: [],
-      tools: ['React', 'Redux', 'Ruby/Rails', 'Node', 'Sass', 'Ember', 'Git'],
+      tools: [
+        'React',
+        'Redux',
+        'ES6',
+        'Ruby/Rails',
+        'Node',
+        'Sass',
+        'Ember',
+        'Git',
+      ],
       description: (
         <>
           <p>
@@ -142,6 +160,7 @@ export default {
       tools: [
         'React',
         'Redux',
+        'ES6',
         'Knockout',
         'jQuery',
         'Groovy/Grails',
