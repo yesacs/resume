@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import '/src/scss/header.scss'
 
 const { string } = PropTypes,
-  Header = function(props) {
+  Header = function (props) {
     const { name, position, location } = props
 
     return (
@@ -28,7 +28,7 @@ const { string } = PropTypes,
             linkedin/in/caseypsullivan
           </a>
           <br />
-          <a href="https://casey.pizza">casey.pizza</a>
+          <a href="http://casey.pizza">casey.pizza</a>
           <br />
           <a href="https://github.com/yesacs">github/yesacs</a>
         </div>
