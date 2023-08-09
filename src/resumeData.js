@@ -8,7 +8,7 @@ import logoBluehouse from './static/img/bluehouse.png'
 
 export default {
   name: 'Casey P. Sullivan',
-  position: 'Web Developer',
+  position: 'Skilled UI/UX Developer',
   location: 'South Burlington, VT',
   objective: 'To hold a position in web site and web application development.',
   email: 'casey.sullivan@gmail.com',
@@ -113,7 +113,7 @@ export default {
             design and development of Pulse, the Ember-based cloud app used by
             our customers to make sense of the massive amount of data that our
             hardware would collect. I also lead design efforts of Pulse v2, a
-            reimagining of Pulse using React and Redux.
+            re-imagining of Pulse using React and Redux.
           </p>
         </>
       ),
@@ -218,12 +218,12 @@ export default {
       description: (
         <>
           <p>
-            EpikOne was one of the first Google Analytics
-            AuthorizedConsultancies (GAAC) in the country, providing tools and
-            expertise to businesses of all sizes, from small chocolate shops
-            looking for basic help with online marketing concepts to
-            international corporations looking for deep analysis to inform
-            online ad campaign spends.
+            EpikOne was one of the first Google Analytics Authorized
+            Consultancies (GAAC) in the country, providing tools and expertise
+            to businesses of all sizes, from small chocolate shops looking for
+            basic help with online marketing concepts to international
+            corporations looking for deep analysis to inform online ad campaign
+            spends.
           </p>
           <p>
             At EpikOne, I built a suite of tools used by our customers to manage

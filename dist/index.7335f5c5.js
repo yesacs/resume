@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("cf48ced219e93a86");
-var ErrorOverlay = require("6458f2db3af78f5c");
+var Refresh = require("baa49a69328ca8be");
+var ErrorOverlay = require("a1af791edd079aa2");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"cf48ced219e93a86":"786KC","6458f2db3af78f5c":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"baa49a69328ca8be":"786KC","a1af791edd079aa2":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("a573936abea3b11a");
+module.exports = require("40b196a5f509ad06");
 
-},{"a573936abea3b11a":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"40b196a5f509ad06":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("a573936abea3b11a");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("10dfb6df561b7eb3");
+var process = require("69d87e51d15741e");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("10dfb6df561b7eb3");
     ]);
 });
 
-},{"10dfb6df561b7eb3":"jhUEF"}],"jhUEF":[function(require,module,exports) {
+},{"69d87e51d15741e":"jhUEF"}],"jhUEF":[function(require,module,exports) {
 "use strict";
 
 },{}],"ePIHx":[function(require,module,exports) {
@@ -2790,10 +2790,10 @@ var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
 var _resumeJsx = require("./resume.jsx");
 var _resumeJsxDefault = parcelHelpers.interopDefault(_resumeJsx);
-var _resumeDataJs = require("../resumeData.js");
-var _resumeDataJsDefault = parcelHelpers.interopDefault(_resumeDataJs);
+var _resumeDataJson = require("../resumeData.json");
+var _resumeDataJsonDefault = parcelHelpers.interopDefault(_resumeDataJson);
 (0, _reactDomDefault.default).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _resumeJsxDefault.default), {
-    ...(0, _resumeDataJsDefault.default)
+    ...(0, _resumeDataJsonDefault.default)
 }, void 0, false, {
     fileName: "src/js/app.jsx",
     lineNumber: 5,
@@ -2805,11 +2805,11 @@ var _resumeDataJsDefault = parcelHelpers.interopDefault(_resumeDataJs);
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./resume.jsx":"gSAUD","../resumeData.js":"2ZK3Z","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./resume.jsx":"gSAUD","../resumeData.json":"448Mz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("c02ccd2276206213");
+module.exports = require("e3b510af08718f56");
 
-},{"c02ccd2276206213":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"e3b510af08718f56":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -2821,7 +2821,7 @@ module.exports = require("c02ccd2276206213");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("23ee66a4b99209bf");
+    var React = require("88f581d6e4f60cb1");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3640,11 +3640,11 @@ module.exports = require("c02ccd2276206213");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"23ee66a4b99209bf":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"88f581d6e4f60cb1":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("8c0515b146b71016");
+module.exports = require("dc9e569e749558a1");
 
-},{"8c0515b146b71016":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"dc9e569e749558a1":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5524,9 +5524,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("a7f4c9db946563ef");
+module.exports = require("ed4b6dd0a397c6cc");
 
-},{"a7f4c9db946563ef":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"ed4b6dd0a397c6cc":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5539,8 +5539,8 @@ module.exports = require("a7f4c9db946563ef");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("8b271a294a242f1a");
-    var Scheduler = require("fa5cabbb8d01e08d");
+    var React = require("7276841e90a45161");
+    var Scheduler = require("b8accb4cc283d263");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26511,11 +26511,11 @@ module.exports = require("a7f4c9db946563ef");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"8b271a294a242f1a":"21dqq","fa5cabbb8d01e08d":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"7276841e90a45161":"21dqq","b8accb4cc283d263":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("76903810f5c6c021");
+module.exports = require("6471d177e981c2e6");
 
-},{"76903810f5c6c021":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"6471d177e981c2e6":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -26985,141 +26985,76 @@ var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _headerJsx = require("./header.jsx");
 var _headerJsxDefault = parcelHelpers.interopDefault(_headerJsx);
+var _footerJsx = require("./footer.jsx");
+var _footerJsxDefault = parcelHelpers.interopDefault(_footerJsx);
+var _sectionJsx = require("./section/section.jsx");
+var _sectionJsxDefault = parcelHelpers.interopDefault(_sectionJsx);
+var _sectionHeaderJsx = require("./section/sectionHeader.jsx");
+var _sectionHeaderJsxDefault = parcelHelpers.interopDefault(_sectionHeaderJsx);
 var _jobJsx = require("./section/job.jsx");
 var _jobJsxDefault = parcelHelpers.interopDefault(_jobJsx);
-var _diplomaJs = require("./section/Diploma.js");
-var _diplomaJsDefault = parcelHelpers.interopDefault(_diplomaJs);
-var _cssPng = require("../static/img/css.png");
-var _cssPngDefault = parcelHelpers.interopDefault(_cssPng);
-var _sassPng = require("../static/img/sass.png");
-var _sassPngDefault = parcelHelpers.interopDefault(_sassPng);
-var _htmlPng = require("../static/img/html.png");
-var _htmlPngDefault = parcelHelpers.interopDefault(_htmlPng);
-var _jsPng = require("../static/img/js.png");
-var _jsPngDefault = parcelHelpers.interopDefault(_jsPng);
-var _nodePng = require("../static/img/node.png");
-var _nodePngDefault = parcelHelpers.interopDefault(_nodePng);
-var _reactPng = require("../static/img/react.png");
-var _reactPngDefault = parcelHelpers.interopDefault(_reactPng);
-var _reduxPng = require("../static/img/redux.png");
-var _reduxPngDefault = parcelHelpers.interopDefault(_reduxPng);
-var _clojurePng = require("../static/img/clojure.png");
-var _clojurePngDefault = parcelHelpers.interopDefault(_clojurePng);
-var _htmxPng = require("../static/img/htmx.png");
-var _htmxPngDefault = parcelHelpers.interopDefault(_htmxPng);
-var _gitPng = require("../static/img/git.png");
-var _gitPngDefault = parcelHelpers.interopDefault(_gitPng);
-var _resumeScss = require("/src/scss/resume.scss");
-var _diplomaScss = require("/src/scss/diploma.scss");
-var _hobbiesScss = require("/src/scss/hobbies.scss");
+var _skillJsx = require("./section/skill.jsx");
+var _skillJsxDefault = parcelHelpers.interopDefault(_skillJsx);
 const { string , array  } = (0, _propTypesDefault.default), getJobs = ({ jobs  })=>jobs.map((j, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jobJsxDefault.default), {
             ...j
         }, i, false, {
             fileName: "src/js/resume.jsx",
-            lineNumber: 25,
+            lineNumber: 15,
             columnNumber: 28
+        }, undefined)), getSkills = ({ skills  })=>skills.map((s, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillJsxDefault.default), {
+            ...s
+        }, i, false, {
+            fileName: "src/js/resume.jsx",
+            lineNumber: 18,
+            columnNumber: 30
         }, undefined)), Resume = function(props) {
-    let { hobbies  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "resume",
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerJsxDefault.default), {
                 ...props
             }, void 0, false, {
                 fileName: "src/js/resume.jsx",
-                lineNumber: 31,
+                lineNumber: 21,
                 columnNumber: 9
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "main",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                        className: "jobs",
-                        children: getJobs(props)
-                    }, void 0, false, {
-                        fileName: "src/js/resume.jsx",
-                        lineNumber: 33,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                        className: "skill-logos",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "I Have experience with…"
-                            }, void 0, false, {
-                                fileName: "src/js/resume.jsx",
-                                lineNumber: 35,
-                                columnNumber: 13
-                            }, this),
-                            [
-                                (0, _htmlPngDefault.default),
-                                (0, _cssPngDefault.default),
-                                (0, _jsPngDefault.default),
-                                (0, _nodePngDefault.default),
-                                (0, _sassPngDefault.default),
-                                (0, _reactPngDefault.default),
-                                (0, _reduxPngDefault.default),
-                                (0, _clojurePngDefault.default),
-                                (0, _gitPngDefault.default),
-                                (0, _htmxPngDefault.default)
-                            ].map((img, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: img
-                                }, i, false, {
-                                    fileName: "src/js/resume.jsx",
-                                    lineNumber: 36,
-                                    columnNumber: 92
-                                }, this))
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/js/resume.jsx",
-                        lineNumber: 34,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                        className: "hobbies-wrapper",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                            className: "hobbies",
-                            children: hobbies.map((h, k)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: h
-                                }, k, false, {
-                                    fileName: "src/js/resume.jsx",
-                                    lineNumber: 40,
-                                    columnNumber: 38
-                                }, this))
-                        }, void 0, false, {
-                            fileName: "src/js/resume.jsx",
-                            lineNumber: 39,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/resume.jsx",
-                        lineNumber: 38,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                        className: "diploma-wrapper",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _diplomaJsDefault.default), {
-                            ...props
-                        }, void 0, false, {
-                            fileName: "src/js/resume.jsx",
-                            lineNumber: 44,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/resume.jsx",
-                        lineNumber: 43,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
+            getJobs(props),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionHeaderJsxDefault.default), {
+                title: "Skills"
+            }, void 0, false, {
                 fileName: "src/js/resume.jsx",
-                lineNumber: 32,
+                lineNumber: 23,
+                columnNumber: 9
+            }, this),
+            getSkills(props),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionHeaderJsxDefault.default), {
+                title: "Offline"
+            }, void 0, false, {
+                fileName: "src/js/resume.jsx",
+                lineNumber: 25,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionJsxDefault.default), {
+                content: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "offline p-block",
+                    children: props.offline
+                }, void 0, false, void 0, void 0)
+            }, void 0, false, {
+                fileName: "src/js/resume.jsx",
+                lineNumber: 26,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerJsxDefault.default), {
+                content: props.footer,
+                repoUrl: props.repoUrl
+            }, void 0, false, {
+                fileName: "src/js/resume.jsx",
+                lineNumber: 27,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/resume.jsx",
-        lineNumber: 30,
+        lineNumber: 20,
         columnNumber: 12
     }, this);
 };
@@ -27137,23 +27072,23 @@ exports.default = Resume;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","./header.jsx":"e13B1","./section/job.jsx":"dXlgq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./section/Diploma.js":"gMynw","../static/img/css.png":"50Yyo","../static/img/sass.png":"3K9K0","../static/img/html.png":"5d9cz","../static/img/js.png":"iHDEM","../static/img/node.png":"9eWFF","../static/img/react.png":"c4Mnd","../static/img/redux.png":"eH0w7","../static/img/clojure.png":"2988H","../static/img/htmx.png":"Y3XF9","../static/img/git.png":"9BSB2","/src/scss/resume.scss":"8Iq1y","/src/scss/diploma.scss":"haoNc","/src/scss/hobbies.scss":"1Fw7A"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","./header.jsx":"e13B1","./footer.jsx":"hhlW2","./section/section.jsx":"1IDP2","./section/sectionHeader.jsx":"2AMYW","./section/job.jsx":"dXlgq","./section/skill.jsx":"5IVuQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var ReactIs = require("d98175b669938bac");
+ */ var ReactIs = require("65cc87eaaa3f14b2");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
 var throwOnDirectAccess = true;
-module.exports = require("d00857e9b06849eb")(ReactIs.isElement, throwOnDirectAccess);
+module.exports = require("a44d022d461e5d2f")(ReactIs.isElement, throwOnDirectAccess);
 
-},{"d98175b669938bac":"7EuwB","d00857e9b06849eb":"bBUgD"}],"7EuwB":[function(require,module,exports) {
+},{"65cc87eaaa3f14b2":"7EuwB","a44d022d461e5d2f":"bBUgD"}],"7EuwB":[function(require,module,exports) {
 "use strict";
-module.exports = require("962ab50035b0faa7");
+module.exports = require("89a162e4aaa39ff5");
 
-},{"962ab50035b0faa7":"5DsXl"}],"5DsXl":[function(require,module,exports) {
+},{"89a162e4aaa39ff5":"5DsXl"}],"5DsXl":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -27317,11 +27252,11 @@ module.exports = require("962ab50035b0faa7");
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
-var ReactIs = require("38c374bb4e1df105");
-var assign = require("78b7251f802e39e");
-var ReactPropTypesSecret = require("bf848b74f1338e5d");
-var has = require("bfec32c6ff8de466");
-var checkPropTypes = require("fab0424744bb6ae7");
+var ReactIs = require("1d6b77d425b72181");
+var assign = require("6d4c06a981faca6");
+var ReactPropTypesSecret = require("89a6aa57bceafee2");
+var has = require("831349de35ab066a");
+var checkPropTypes = require("dffb955abeb58b11");
 var printWarning = function() {};
 printWarning = function(text) {
     var message = "Warning: " + text;
@@ -27748,7 +27683,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return ReactPropTypes;
 };
 
-},{"38c374bb4e1df105":"7EuwB","78b7251f802e39e":"7OXxh","bf848b74f1338e5d":"jZTZJ","bfec32c6ff8de466":"fqKuf","fab0424744bb6ae7":"5VwyJ"}],"7OXxh":[function(require,module,exports) {
+},{"1d6b77d425b72181":"7EuwB","6d4c06a981faca6":"7OXxh","89a6aa57bceafee2":"jZTZJ","831349de35ab066a":"fqKuf","dffb955abeb58b11":"5VwyJ"}],"7OXxh":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -27824,9 +27759,9 @@ module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
 var printWarning = function() {};
-var ReactPropTypesSecret = require("7de3b36cf05fcda7");
+var ReactPropTypesSecret = require("114abf5db6f06f7a");
 var loggedTypeFailures = {};
-var has = require("9d0d6592073cb894");
+var has = require("bdd36890cf697c97");
 printWarning = function(text) {
     var message = "Warning: " + text;
     if (typeof console !== "undefined") console.error(message);
@@ -27884,7 +27819,7 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"7de3b36cf05fcda7":"jZTZJ","9d0d6592073cb894":"fqKuf"}],"e13B1":[function(require,module,exports) {
+},{"114abf5db6f06f7a":"jZTZJ","bdd36890cf697c97":"fqKuf"}],"e13B1":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$7f42 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28040,7 +27975,7 @@ exports.export = function(dest, destName, get) {
 
 },{}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("941f813b203049cd");
+var Refresh = require("14ca2f88f01dc48d");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -28171,7 +28106,177 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"941f813b203049cd":"786KC"}],"1AyFA":[function() {},{}],"dXlgq":[function(require,module,exports) {
+},{"14ca2f88f01dc48d":"786KC"}],"1AyFA":[function() {},{}],"hhlW2":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2044 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2044.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+const { string  } = (0, _propTypesDefault.default), Footer = function({ repoUrl , content  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "row",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "col-sm-12",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: content
+                    }, void 0, false, {
+                        fileName: "src/js/footer.jsx",
+                        lineNumber: 13,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: repoUrl,
+                            children: repoUrl
+                        }, void 0, false, {
+                            fileName: "src/js/footer.jsx",
+                            lineNumber: 14,
+                            columnNumber: 16
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/js/footer.jsx",
+                        lineNumber: 14,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/footer.jsx",
+                lineNumber: 12,
+                columnNumber: 11
+            }, this)
+        }, void 0, false, {
+            fileName: "src/js/footer.jsx",
+            lineNumber: 11,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "src/js/footer.jsx",
+        lineNumber: 10,
+        columnNumber: 12
+    }, this);
+};
+Footer.propTypes = {
+    content: string,
+    repoUrl: string
+};
+exports.default = Footer;
+
+  $parcel$ReactRefreshHelpers$2044.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1IDP2":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e1d1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e1d1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+const { string , node  } = (0, _propTypesDefault.default), Section = function({ className , gutter , content  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "row " + className,
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "gutter col-sm-3",
+                children: gutter
+            }, void 0, false, {
+                fileName: "src/js/section/section.jsx",
+                lineNumber: 13,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "content col-sm-9",
+                children: content
+            }, void 0, false, {
+                fileName: "src/js/section/section.jsx",
+                lineNumber: 14,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/js/section/section.jsx",
+        lineNumber: 12,
+        columnNumber: 12
+    }, this);
+};
+Section.propTypes = {
+    className: string,
+    gutter: node,
+    content: node
+};
+exports.default = Section;
+
+  $parcel$ReactRefreshHelpers$e1d1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2AMYW":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$07a1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$07a1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+const { string  } = (0, _propTypesDefault.default), SectionHeader = function({ title  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+        className: "row section-header",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "content col-sm-9 col-sm-offset-3",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: title
+            }, void 0, false, {
+                fileName: "src/js/section/sectionHeader.jsx",
+                lineNumber: 11,
+                columnNumber: 11
+            }, this)
+        }, void 0, false, {
+            fileName: "src/js/section/sectionHeader.jsx",
+            lineNumber: 10,
+            columnNumber: 9
+        }, this)
+    }, void 0, false, {
+        fileName: "src/js/section/sectionHeader.jsx",
+        lineNumber: 9,
+        columnNumber: 12
+    }, this);
+};
+SectionHeader.propTypes = {
+    title: string
+};
+exports.default = SectionHeader;
+
+  $parcel$ReactRefreshHelpers$07a1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dXlgq":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a552 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28185,163 +28290,148 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
-var _jobScss = require("/src/scss/job.scss");
-const { string , any , bool  } = (0, _propTypesDefault.default), getLinks = ({ links =[]  })=>links.map((l, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-            className: "external-link",
+var _sectionJsx = require("./section.jsx");
+var _sectionJsxDefault = parcelHelpers.interopDefault(_sectionJsx);
+const { string , arrayOf , node , shape  } = (0, _propTypesDefault.default), getDuties = ({ duties  })=>duties.map((d, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+            children: d
+        }, i, false, {
+            fileName: "src/js/section/job.jsx",
+            lineNumber: 12,
+            columnNumber: 30
+        }, undefined)), getLinks = ({ links =[]  })=>links.map((l, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: l.url,
                 children: l.label
             }, void 0, false, {
                 fileName: "src/js/section/job.jsx",
-                lineNumber: 12,
+                lineNumber: 16,
                 columnNumber: 9
             }, undefined)
         }, i, false, {
             fileName: "src/js/section/job.jsx",
-            lineNumber: 11,
+            lineNumber: 15,
             columnNumber: 29
         }, undefined)), JobContent = (props)=>{
-    const { title , company , location , duration ={} , description , logo , tools =[] , current  } = props;
+    const { title , company , location , timeAtPosition , links =[]  } = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "job-content",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "job-details",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "job-description",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: title
-                                    }, void 0, false, {
-                                        fileName: "src/js/section/job.jsx",
-                                        lineNumber: 29,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                        children: [
-                                            "@ ",
-                                            company
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/js/section/job.jsx",
-                                        lineNumber: 30,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("small", {
-                                        children: [
-                                            duration.start,
-                                            " — ",
-                                            duration.end || "Present",
-                                            " |",
-                                            " ",
-                                            location.city,
-                                            ", ",
-                                            location.state
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/js/section/job.jsx",
-                                        lineNumber: 31,
-                                        columnNumber: 15
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/js/section/job.jsx",
-                                lineNumber: 28,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                children: description
-                            }, void 0, false, {
-                                fileName: "src/js/section/job.jsx",
-                                lineNumber: 36,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/js/section/job.jsx",
-                        lineNumber: 27,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "job-tools",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                className: "job-logo",
-                                src: logo
-                            }, void 0, false, {
-                                fileName: "src/js/section/job.jsx",
-                                lineNumber: 39,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                children: [
-                                    tools.map((t)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                            children: t
-                                        }, void 0, false, {
-                                            fileName: "src/js/section/job.jsx",
-                                            lineNumber: 41,
-                                            columnNumber: 31
-                                        }, undefined)),
-                                    getLinks(props)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/js/section/job.jsx",
-                                lineNumber: 40,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/js/section/job.jsx",
-                        lineNumber: 38,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/js/section/job.jsx",
-                lineNumber: 26,
-                columnNumber: 9
-            }, undefined),
-            current && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "ribbon",
-                children: "I work here!"
-            }, void 0, false, {
-                fileName: "src/js/section/job.jsx",
-                lineNumber: 47,
-                columnNumber: 21
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/js/section/job.jsx",
-        lineNumber: 25,
-        columnNumber: 12
-    }, undefined);
-}, Job = function(props) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "job job-" + props.class,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(JobContent, {
-            ...props
-        }, void 0, false, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "job-content",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                    className: "heading",
+                    children: title
+                }, void 0, false, {
+                    fileName: "src/js/section/job.jsx",
+                    lineNumber: 28,
+                    columnNumber: 11
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "company",
+                    children: [
+                        company,
+                        "|",
+                        location,
+                        "|",
+                        timeAtPosition
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/section/job.jsx",
+                    lineNumber: 29,
+                    columnNumber: 11
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    className: "duties",
+                    children: getDuties(props)
+                }, void 0, false, {
+                    fileName: "src/js/section/job.jsx",
+                    lineNumber: 32,
+                    columnNumber: 11
+                }, undefined),
+                links.length > 0 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "links",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h6", {
+                            children: "Links of Interest"
+                        }, void 0, false, {
+                            fileName: "src/js/section/job.jsx",
+                            lineNumber: 34,
+                            columnNumber: 15
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            children: getLinks(props)
+                        }, void 0, false, {
+                            fileName: "src/js/section/job.jsx",
+                            lineNumber: 35,
+                            columnNumber: 15
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/section/job.jsx",
+                    lineNumber: 33,
+                    columnNumber: 32
+                }, undefined)
+            ]
+        }, void 0, true, {
             fileName: "src/js/section/job.jsx",
-            lineNumber: 52,
+            lineNumber: 27,
             columnNumber: 9
-        }, this)
+        }, undefined)
     }, void 0, false, {
         fileName: "src/js/section/job.jsx",
-        lineNumber: 51,
+        lineNumber: 26,
+        columnNumber: 12
+    }, undefined);
+}, Gutter = ({ gutterClassName  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "logo " + (gutterClassName || null)
+    }, void 0, false, {
+        fileName: "src/js/section/job.jsx",
+        lineNumber: 42,
+        columnNumber: 9
+    }, undefined), Job = function(props) {
+    const content = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(JobContent, {
+        ...props
+    }, void 0, false, {
+        fileName: "src/js/section/job.jsx",
+        lineNumber: 44,
+        columnNumber: 21
+    }, this), gutter = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Gutter, {
+        ...props
+    }, void 0, false, {
+        fileName: "src/js/section/job.jsx",
+        lineNumber: 45,
+        columnNumber: 16
+    }, this);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionJsxDefault.default), {
+        className: "job " + props.class,
+        gutter: gutter,
+        content: content
+    }, void 0, false, {
+        fileName: "src/js/section/job.jsx",
+        lineNumber: 46,
         columnNumber: 12
     }, this);
+};
+Job.propTypes = {
+    title: string,
+    class: string,
+    company: string,
+    location: string,
+    timeAtPosition: string,
+    gutterClassName: string,
+    duties: arrayOf(node),
+    links: arrayOf(shape({
+        url: string,
+        label: string
+    }))
 };
 JobContent.propTypes = {
     title: string,
     company: string,
     location: string,
-    timeAtPosition: string,
-    logo: any,
-    tools: any,
-    current: bool
+    timeAtPosition: string
+};
+Gutter.propTypes = {
+    gutterClassName: string
 };
 exports.default = Job;
 
@@ -28350,11 +28440,11 @@ exports.default = Job;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","/src/scss/job.scss":"kMP8a"}],"kMP8a":[function() {},{}],"gMynw":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$31fd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","./section.jsx":"1IDP2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5IVuQ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ec4b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$31fd.prelude(module);
+$parcel$ReactRefreshHelpers$ec4b.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28364,741 +28454,52 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
-let Diploma = ({ education  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "diploma",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "diploma-frame",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "diploma-mat",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "diploma-paper",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                            className: "fa-solid fa-award"
-                        }, void 0, false, {
-                            fileName: "src/js/section/Diploma.js",
-                            lineNumber: 9,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "degree",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            children: education.degree
-                                        }, void 0, false, {
-                                            fileName: "src/js/section/Diploma.js",
-                                            lineNumber: 12,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                            className: "print-only",
-                                            children: [
-                                                "@ ",
-                                                education.school
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/js/section/Diploma.js",
-                                            lineNumber: 13,
-                                            columnNumber: 15
-                                        }, undefined),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("small", {
-                                            className: "print-only",
-                                            children: [
-                                                education.duration.start,
-                                                " — ",
-                                                education.duration.end
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/js/section/Diploma.js",
-                                            lineNumber: 14,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/js/section/Diploma.js",
-                                    lineNumber: 11,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "screen-only",
-                                    children: education.school
-                                }, void 0, false, {
-                                    fileName: "src/js/section/Diploma.js",
-                                    lineNumber: 18,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    children: [
-                                        education.location.city,
-                                        ", ",
-                                        education.location.state
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/js/section/Diploma.js",
-                                    lineNumber: 19,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "screen-only",
-                                    children: [
-                                        education.duration.start,
-                                        " — ",
-                                        education.duration.end
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/js/section/Diploma.js",
-                                    lineNumber: 22,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/js/section/Diploma.js",
-                            lineNumber: 10,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/js/section/Diploma.js",
-                    lineNumber: 8,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/js/section/Diploma.js",
-                lineNumber: 7,
-                columnNumber: 7
-            }, undefined)
-        }, void 0, false, {
-            fileName: "src/js/section/Diploma.js",
-            lineNumber: 6,
-            columnNumber: 5
-        }, undefined)
+var _sectionJsx = require("./section.jsx");
+var _sectionJsxDefault = parcelHelpers.interopDefault(_sectionJsx);
+const { string , array  } = (0, _propTypesDefault.default), getContent = ({ subSkills  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+        children: subSkills.map((ss, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                className: "col-sm-4 col-xs-6",
+                children: ss
+            }, i, false, {
+                fileName: "src/js/section/skill.jsx",
+                lineNumber: 11,
+                columnNumber: 33
+            }, undefined))
     }, void 0, false, {
-        fileName: "src/js/section/Diploma.js",
-        lineNumber: 5,
-        columnNumber: 7
-    }, undefined);
-_c = Diploma;
-Diploma.propTypes = {
-    education: (0, _propTypesDefault.default).any
+        fileName: "src/js/section/skill.jsx",
+        lineNumber: 10,
+        columnNumber: 9
+    }, undefined), getGutter = ({ title  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: title
+    }, void 0, false, {
+        fileName: "src/js/section/skill.jsx",
+        lineNumber: 15,
+        columnNumber: 9
+    }, undefined), Skill = function(props) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionJsxDefault.default), {
+        gutter: getGutter(props),
+        content: getContent(props),
+        className: "skill"
+    }, void 0, false, {
+        fileName: "src/js/section/skill.jsx",
+        lineNumber: 17,
+        columnNumber: 12
+    }, this);
 };
-exports.default = Diploma;
-var _c;
-$RefreshReg$(_c, "Diploma");
+Skill.propTypes = {
+    title: string,
+    subSkills: array
+};
+exports.default = Skill;
 
-  $parcel$ReactRefreshHelpers$31fd.postlude(module);
+  $parcel$ReactRefreshHelpers$ec4b.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"50Yyo":[function(require,module,exports) {
-module.exports = require("7bd52ba03b5ddca9").getBundleURL("lQaTW") + "css.86234a67.png" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","./section.jsx":"1IDP2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"448Mz":[function(require,module,exports) {
+module.exports = JSON.parse('{"name":"Casey P. Sullivan","position":"Web Developer","location":"South Burlington, VT","objective":"To hold a position in web site and web application development.","email":"casey.sullivan@gmail.com","offline":"I enjoy the outdoors Vermont has to offer. I play disc golf in the summer and try to ski in the winter. I love music and collect vinyl records and old stereo equipment, as well as concert posters from local designers. I spend too much money on video games.","footer":"Use of corporate logos and colors does not imply ownership or creation","repoUrl":"https://github.com/yesacs/resume","education":{"degree":"B.S., Computer Science","school":"Saint Michael\'s College","location":"Colchester, VT","time":"2000 – 2004"},"contact":[{"class":"twitter","url":"https://twitter.com/casey_sullivan"},{"class":"facebook","url":"https://www.facebook.com/Da.Denim.Devil"},{"class":"linkedin","url":"https://www.linkedin.com/in/caseypsullivan   "}],"jobs":[{"title":"Head of Produt Design","company":"FrikinTech","location":"Williston, VT","timeAtPosition":"2018 – present","duties":[],"class":"frikin","links":[]},{"title":"User Experience Developer","company":"Pwnie Express (defunct)","location":"Burlington, VT","timeAtPosition":"2015 – 2018","duties":[],"class":"pwnie","links":[]},{"title":"User Interface Developer","company":"Dealer.com","location":"Burlington, VT","timeAtPosition":"2010 – present (5 years)","duties":["UI/UX developer and designer for DT CRM, the fastest growing automotive CRM in the US","Designed and developed the Dealer.com Pencil Tool, a realtime car payment engine","Developed embedable js apps designed to augment existing apps without backend integrations","Met face-to-face with our dealership customers for demos and feedback","Created internal CRM for in-house sales teams using Grails"],"links":[{"url":"http://www.dealer.com","label":"Dealer.com"},{"url":"https://us.dealertrack.com/content/dealertrack/en/crm.html","label":"Dealertrack CRM"},{"url":"http://www.coxautoinc.com/","label":"Cox Automotive"}],"class":"ddc"},{"title":"Interactive Developer","company":"Propeller Media Works","location":"Burlington, VT","timeAtPosition":"2009 – 2010 (9 Months)","duties":["Senior PHP developer for one of the most established web firms in Burlington","Maintenance and additional development on 40+ existing client sites","Research of new and progressing technology for integration into existing products","Consulting on CSS and JS possibilities for design projects","Prototyping next generation of in-house CMS system in Ruby on Rails"],"links":[{"url":"http://www.propelled.com","label":"Propeller Media Works"},{"url":"http://ncsmokehouse.com","label":"North Country Smokehouse"}],"class":"propeller"},{"title":"Manager Software + Analytics","company":"EpikOne","location":"Burlington, VT","timeAtPosition":"2007 – 2009 (2 years 9 Months)","duties":["Lead Ruby on Rails developer for one of the premier Google Analytics Authorized Consultancies","Led development of SiteScan and AnalyticsView, EpikOne\'s two general public apps","Built DigitalMIDI, a marketing communications dashboard for enterprise","Extensive development using the Google Analytics API","General Mac desktop support and technology consulting","Created the EpikOne.com website using standards-based XHTML and CSS"],"links":[{"url":"https://web.archive.org/web/20090503125637/http://www.epikone.com/","label":"EpikOne at Archive.org"}],"class":"epikone"},{"title":"HTML Production","company":"Bluehouse Group","location":"Richmond, VT","timeAtPosition":"2005 – 2007 (2 years)","duties":["Developer of standards-based HTML and CSS, and PHP sites ranging from simple brochure sites to high-end e-commerce","Web site production, development, and maintenance of over 30 sites","Translation of designs from Photoshop into HTML and CSS","Research of new technologies for use on future projects, such as Ajax and Ruby on Rails","Helped develop Content Creator, a CMS system for sites that allows clients to build out the content of a site themselves"],"links":[{"url":"http://www.bluehousegroup.com","label":"Bluehouse Group"},{"url":"http://www.newponyrecords.com/","label":"New Pony Records"}],"class":"bluehouse"}],"skills":[{"title":"Javascript","subSkills":["React","jQuery","Knockout","Grunt","Gulp","Browserify","Lodash","ESlint","CommonJS","Jasmine","YUI"]},{"title":"Technologies","subSkills":["Grails/Groovy","Java","Ruby on Rails","PHP","HTML","CSS/Sass","Jenkins","Github","Fisheye/Crucible"]},{"title":"Operating Systems","subSkills":["MacOS X","Windows","Linux"]},{"title":"Other Skills","subSkills":["Scrum Agile/SAFe","Desktop Support","Cross-browser Testing","Jira","Rally","Google Apps"]}]}');
 
-},{"7bd52ba03b5ddca9":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"3K9K0":[function(require,module,exports) {
-module.exports = require("5f6823a248b8b3bc").getBundleURL("lQaTW") + "sass.ac91de7b.png" + "?" + Date.now();
-
-},{"5f6823a248b8b3bc":"lgJ39"}],"5d9cz":[function(require,module,exports) {
-module.exports = require("376d703b050ddd28").getBundleURL("lQaTW") + "html.f5f189cd.png" + "?" + Date.now();
-
-},{"376d703b050ddd28":"lgJ39"}],"iHDEM":[function(require,module,exports) {
-module.exports = require("626364c9f96b762a").getBundleURL("lQaTW") + "js.760d7a31.png" + "?" + Date.now();
-
-},{"626364c9f96b762a":"lgJ39"}],"9eWFF":[function(require,module,exports) {
-module.exports = require("3abe39a3fb7f88c4").getBundleURL("lQaTW") + "node.41e727ec.png" + "?" + Date.now();
-
-},{"3abe39a3fb7f88c4":"lgJ39"}],"c4Mnd":[function(require,module,exports) {
-module.exports = require("b32488544b5bbcc6").getBundleURL("lQaTW") + "react.6f5bdce5.png" + "?" + Date.now();
-
-},{"b32488544b5bbcc6":"lgJ39"}],"eH0w7":[function(require,module,exports) {
-module.exports = require("8e1cd57e1d1cb0c0").getBundleURL("lQaTW") + "redux.8d730f71.png" + "?" + Date.now();
-
-},{"8e1cd57e1d1cb0c0":"lgJ39"}],"2988H":[function(require,module,exports) {
-module.exports = require("b70a083e4b5903e7").getBundleURL("lQaTW") + "clojure.5512fe13.png" + "?" + Date.now();
-
-},{"b70a083e4b5903e7":"lgJ39"}],"Y3XF9":[function(require,module,exports) {
-module.exports = require("caf3f24bc9495fec").getBundleURL("lQaTW") + "htmx.2b179aa7.png" + "?" + Date.now();
-
-},{"caf3f24bc9495fec":"lgJ39"}],"9BSB2":[function(require,module,exports) {
-module.exports = require("cf3f9d7d04b0ab98").getBundleURL("lQaTW") + "git.f5d101dd.png" + "?" + Date.now();
-
-},{"cf3f9d7d04b0ab98":"lgJ39"}],"8Iq1y":[function() {},{}],"haoNc":[function() {},{}],"1Fw7A":[function() {},{}],"2ZK3Z":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$86a9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$86a9.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _frikinPng = require("./static/img/frikin.png");
-var _frikinPngDefault = parcelHelpers.interopDefault(_frikinPng);
-var _pwnieJpeg = require("./static/img/pwnie.jpeg");
-var _pwnieJpegDefault = parcelHelpers.interopDefault(_pwnieJpeg);
-var _dealerComJpg = require("./static/img/dealer.com.jpg");
-var _dealerComJpgDefault = parcelHelpers.interopDefault(_dealerComJpg);
-var _propellerPng = require("./static/img/propeller.png");
-var _propellerPngDefault = parcelHelpers.interopDefault(_propellerPng);
-var _epikonePng = require("./static/img/epikone.png");
-var _epikonePngDefault = parcelHelpers.interopDefault(_epikonePng);
-var _bluehousePng = require("./static/img/bluehouse.png");
-var _bluehousePngDefault = parcelHelpers.interopDefault(_bluehousePng);
-exports.default = {
-    name: "Casey P. Sullivan",
-    position: "Web Developer",
-    location: "South Burlington, VT",
-    objective: "To hold a position in web site and web application development.",
-    email: "casey.sullivan@gmail.com",
-    offline: "I enjoy the outdoors Vermont has to offer. I play disc golf in the summer and try to ski in the winter. I love music and collect vinyl records and old stereo equipment, as well as concert posters from local designers. I spend too much money on video games.",
-    footer: "Use of corporate logos and colors does not imply ownership or creation",
-    repoUrl: "https://github.com/yesacs/resume",
-    education: {
-        degree: "B.S., Computer Science",
-        school: "Saint Michael's College",
-        location: {
-            city: "Colchester",
-            state: "VT"
-        },
-        duration: {
-            start: 2000,
-            end: 2004
-        }
-    },
-    contact: [
-        {
-            class: "twitter",
-            url: "https://twitter.com/casey_sullivan"
-        },
-        {
-            class: "facebook",
-            url: "https://www.facebook.com/Da.Denim.Devil"
-        },
-        {
-            class: "linkedin",
-            url: "https://www.linkedin.com/in/caseypsullivan"
-        }
-    ],
-    jobs: [
-        {
-            title: "Head of Product Design",
-            company: "FRIKINtech",
-            industry: "Car Dealership Operations",
-            location: {
-                city: "Williston",
-                state: "VT"
-            },
-            logo: (0, _frikinPngDefault.default),
-            tools: [
-                "React",
-                "Redux",
-                "ES6",
-                "HTMX",
-                "Clojure",
-                "Sass",
-                "Node",
-                "Git"
-            ],
-            current: true,
-            description: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "FRIKINtech provides car dealers with a toolset to cultivate their existing customer base by automating the delivery of personalized car payments using customer's real equity, along with rebates, fees and taxes included."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 51,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "As Head of Product Design and sole UI/UX Developer, I am responsible for the design, development and maintenance of the front end user interfaces of illumiQUOTE, our online shopping presence used by dealers and buyers to lookup equity and build custom, penny-perfect Payments."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 57,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true),
-            duties: [],
-            duration: {
-                start: 2018
-            },
-            class: "frikin",
-            links: [
-                {
-                    url: "https://www.frikintech.com",
-                    label: "FRIKINtech"
-                },
-                {
-                    url: "https://www.illumiquote.com/your-dealership",
-                    label: "illumiQUOTE"
-                }
-            ]
-        },
-        {
-            title: "User Experience Developer",
-            company: "Pwnie Express",
-            industry: "Cyber Security",
-            location: {
-                city: "Burlingon",
-                state: "VT"
-            },
-            logo: (0, _pwnieJpegDefault.default),
-            duration: {
-                start: 2015,
-                end: 2018
-            },
-            duties: [],
-            tools: [
-                "React",
-                "Redux",
-                "ES6",
-                "Ruby/Rails",
-                "Node",
-                "Sass",
-                "Ember",
-                "Git"
-            ],
-            description: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Pwnie Express was a cutting-edge firm that equipped cyber security professionals with hardware and software to detect, locate and mitigate threats to their corporate or government networks."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 93,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "As part of the Burlington based engineering team, I lead the UI/UX design and development of Pulse, the Ember-based cloud app used by our customers to make sense of the massive amount of data that our hardware would collect. I also lead design efforts of Pulse v2, a reimagining of Pulse using React and Redux."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 98,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true),
-            class: "pwnie",
-            links: [
-                {
-                    url: "https://web.archive.org/web/20190920093830/https://www.pwnieexpress.com/pulse",
-                    label: "PwnPulse (Archive.org)"
-                }
-            ]
-        },
-        {
-            title: "User Interface Developer",
-            company: "Dealer.com",
-            industry: "Car Dealership Marketing and Operations",
-            location: {
-                city: "Burlingon",
-                state: "VT"
-            },
-            logo: (0, _dealerComJpgDefault.default),
-            duration: {
-                start: 2010,
-                end: 2015
-            },
-            description: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Dealer.com, which is now a part of Cox Automotive, specializes in end-to-end online marketing solutions for car dealers. This includes, but isn't limited to, websites, SEM and SEO, and reputation management."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 125,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "At Dealer.com, I was part of their first foray into dealership operations software. I was one of two UI developers on the team and my responsibilities included the visual design and user experience of the CRM tool used by our dealership customers to manage their daily tasks as well as future sales prospects and current opportunities."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 131,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true),
-            duties: [
-                "UI/UX developer and designer for DT CRM, the fastest growing automotive CRM in the US",
-                "Designed and developed the Dealer.com Pencil Tool, a realtime car payment engine",
-                "Developed embedable js apps designed to augment existing apps without backend integrations",
-                "Met face-to-face with our dealership customers for demos and feedback",
-                "Created internal CRM for in-house sales teams using Grails"
-            ],
-            tools: [
-                "React",
-                "Redux",
-                "ES6",
-                "Knockout",
-                "jQuery",
-                "Groovy/Grails",
-                "YUI",
-                "Node",
-                "Sass",
-                "Git"
-            ],
-            links: [
-                {
-                    url: "http://www.dealer.com",
-                    label: "Dealer.com"
-                },
-                {
-                    url: "http://www.coxautoinc.com/",
-                    label: "Cox Automotive"
-                }
-            ],
-            class: "ddc"
-        },
-        {
-            title: "Interactive Developer",
-            company: "Propeller Media Works",
-            industry: "Custom Website Design and Development",
-            location: {
-                city: "Burlingon",
-                state: "VT"
-            },
-            logo: (0, _propellerPngDefault.default),
-            duration: {
-                start: 2009,
-                end: 2010
-            },
-            description: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Propeller is a longtime fixture in the Burlington web dev world. Specializing in ADA compliant and accessible websites, their workcovers of broad set of industries, including high-fashion brands, ski resorts, medical and ecommerce."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 164,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "During my time with Propeller, I was an Interactive Developer, the primary on-staff developer responsible for maintaining the 60+ websites in the company's care at the time. I worked closely with designers, taking PSD site mockups and turning them into reality using a combination of PHP, CSS and JS. I maintained the in-house CMS used to create these sites, and I prototyped a next-gen version that used Ruby on Rails."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 170,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true),
-            tools: [
-                "PHP",
-                "ES5",
-                "jQuery",
-                "CSS",
-                "SVN",
-                "Ruby on Rails"
-            ],
-            links: [
-                {
-                    url: "http://www.propelled.com",
-                    label: "Propeller Media Works"
-                }
-            ],
-            class: "propeller"
-        },
-        {
-            title: "Manager Software + Analytics",
-            company: "EpikOne",
-            industry: "Google Analytics Consulting and Marketing",
-            location: {
-                city: "Burlingon",
-                state: "VT"
-            },
-            logo: (0, _epikonePngDefault.default),
-            duration: {
-                start: 2007,
-                end: 2009
-            },
-            tools: [
-                "Ruby/Rails",
-                "ES5",
-                "jQuery",
-                "CSS",
-                "SVN"
-            ],
-            description: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "EpikOne was one of the first Google Analytics AuthorizedConsultancies (GAAC) in the country, providing tools and expertise to businesses of all sizes, from small chocolate shops looking for basic help with online marketing concepts to international corporations looking for deep analysis to inform online ad campaign spends."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 201,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "At EpikOne, I built a suite of tools used by our customers to manage and verify their GA installs and generate cross-account reporting for complex GA setups. I also conceived a centralized management tool used by our consults and their clients to manage all aspects of their projects, including threaded comms and project timelines."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 209,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true),
-            xduties: [
-                "Lead Ruby on Rails developer for one of the premier Google Analytics Authorized Consultancies",
-                "Led development of SiteScan and AnalyticsView, EpikOne's two general public apps",
-                "Built DigitalMIDI, a marketing communications dashboard for enterprise",
-                "Extensive development using the Google Analytics API",
-                "General Mac desktop support and technology consulting",
-                "Created the EpikOne.com website using standards-based XHTML and CSS"
-            ],
-            links: [
-                {
-                    url: "https://web.archive.org/web/20090503125637/http://www.epikone.com/",
-                    label: "EpikOne (Archive.org)"
-                }
-            ],
-            class: "epikone"
-        },
-        {
-            title: "HTML Production",
-            company: "Bluehouse Group",
-            logo: (0, _bluehousePngDefault.default),
-            location: {
-                city: "Richmond",
-                state: "VT"
-            },
-            duration: {
-                start: 2005,
-                end: 2007
-            },
-            description: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Bluehouse Group is a small but skilled full-service web design and development house that creates websites for a broad spectrum of industries."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 236,
-                        columnNumber: 11
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "At Bluehouse, I worked as the front-end developer on a team of four, taking PSD designs from our in-house designer and converting them to HTML/CSS/JS to first create static sites, then working with back end developers to make them dynamic using PHP. While at Bluehouse, I worked on 30+ websites ranging in all sizes from pro-bono sites for nonprofits to large, bespoke ecommerce solutions for built to order furniture."
-                    }, void 0, false, {
-                        fileName: "src/resumeData.js",
-                        lineNumber: 241,
-                        columnNumber: 11
-                    }, undefined)
-                ]
-            }, void 0, true),
-            xduties: [
-                "Developer of standards-based HTML and CSS, and PHP sites ranging from simple brochure sites to high-end e-commerce",
-                "Web site production, development, and maintenance of over 30 sites",
-                "Translation of designs from Photoshop into HTML and CSS",
-                "Research of new technologies for use on future projects, such as Ajax and Ruby on Rails",
-                "Helped develop Content Creator, a CMS system for sites that allows clients to build out the content of a site themselves"
-            ],
-            tools: [
-                "PHP",
-                "ES5",
-                "CSS"
-            ],
-            links: [
-                {
-                    url: "http://www.bluehousegroup.com",
-                    label: "Bluehouse Group"
-                }
-            ],
-            class: "bluehouse"
-        }
-    ],
-    skills: [
-        {
-            title: "Javascript",
-            subSkills: [
-                "React",
-                "jQuery",
-                "Knockout",
-                "Grunt",
-                "Gulp",
-                "Browserify",
-                "Lodash",
-                "ESlint",
-                "CommonJS",
-                "Jasmine",
-                "YUI"
-            ]
-        },
-        {
-            title: "Technologies",
-            subSkills: [
-                "Grails/Groovy",
-                "Java",
-                "Ruby on Rails",
-                "PHP",
-                "HTML",
-                "CSS/Sass",
-                "Jenkins",
-                "Github",
-                "Fisheye/Crucible"
-            ]
-        },
-        {
-            title: "Operating Systems",
-            subSkills: [
-                "MacOS X",
-                "Windows",
-                "Linux"
-            ]
-        },
-        {
-            title: "Other Skills",
-            subSkills: [
-                "Scrum Agile/SAFe",
-                "Desktop Support",
-                "Cross-browser Testing",
-                "Jira",
-                "Rally",
-                "Google Apps"
-            ]
-        }
-    ],
-    hobbies: [
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                "I love to play board games. My favorite game is Bus!",
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/resumeData.js",
-                    lineNumber: 274,
-                    columnNumber: 7
-                }, undefined),
-                " See my plays on",
-                " ",
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: "https://boardgamegeek.com/user/yesacs",
-                    children: "BGG"
-                }, void 0, false, {
-                    fileName: "src/resumeData.js",
-                    lineNumber: 275,
-                    columnNumber: 7
-                }, undefined),
-                "!"
-            ]
-        }, void 0, true),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                "I bike! I own five bikes! Want to buy a bike!?",
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/resumeData.js",
-                    lineNumber: 278,
-                    columnNumber: 7
-                }, undefined),
-                " Give me kudos on",
-                " ",
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: "https://www.strava.com/athletes/62551764",
-                    children: "Strava"
-                }, void 0, false, {
-                    fileName: "src/resumeData.js",
-                    lineNumber: 279,
-                    columnNumber: 7
-                }, undefined)
-            ]
-        }, void 0, true),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                "I'm on ",
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: "https://github.com/yesacs",
-                    children: "Github"
-                }, void 0, false, {
-                    fileName: "src/resumeData.js",
-                    lineNumber: 281,
-                    columnNumber: 14
-                }, undefined),
-                " for my personal projects.",
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                    fileName: "src/resumeData.js",
-                    lineNumber: 283,
-                    columnNumber: 7
-                }, undefined),
-                "Hope you like dotfiles!"
-            ]
-        }, void 0, true),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                "I'm on ",
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: "https://www.linkedin.com/in/caseypsullivan/",
-                    children: "LinkedIn"
-                }, void 0, false, {
-                    fileName: "src/resumeData.js",
-                    lineNumber: 286,
-                    columnNumber: 14
-                }, undefined)
-            ]
-        }, void 0, true),
-        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-            children: [
-                "I'm on ",
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: "https://twitter.com/casey_sullivan",
-                    children: "Twitter"
-                }, void 0, false, {
-                    fileName: "src/resumeData.js",
-                    lineNumber: 288,
-                    columnNumber: 14
-                }, undefined)
-            ]
-        }, void 0, true)
-    ]
-};
-
-  $parcel$ReactRefreshHelpers$86a9.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./static/img/frikin.png":"7Vwo0","./static/img/pwnie.jpeg":"9wMyU","./static/img/dealer.com.jpg":"8ABrt","./static/img/propeller.png":"lDQq9","./static/img/epikone.png":"enFDf","./static/img/bluehouse.png":"ces86"}],"7Vwo0":[function(require,module,exports) {
-module.exports = require("cb33aeccd25c3a4e").getBundleURL("lQaTW") + "frikin.18952a2a.png" + "?" + Date.now();
-
-},{"cb33aeccd25c3a4e":"lgJ39"}],"9wMyU":[function(require,module,exports) {
-module.exports = require("1bbd827959609aea").getBundleURL("lQaTW") + "pwnie.2adfea19.jpeg" + "?" + Date.now();
-
-},{"1bbd827959609aea":"lgJ39"}],"8ABrt":[function(require,module,exports) {
-module.exports = require("19e0b8b4a94f2b5a").getBundleURL("lQaTW") + "dealer.com.bd55714e.jpg" + "?" + Date.now();
-
-},{"19e0b8b4a94f2b5a":"lgJ39"}],"lDQq9":[function(require,module,exports) {
-module.exports = require("996d67a640f32fc2").getBundleURL("lQaTW") + "propeller.1be855e8.png" + "?" + Date.now();
-
-},{"996d67a640f32fc2":"lgJ39"}],"enFDf":[function(require,module,exports) {
-module.exports = require("337cc764be3537e8").getBundleURL("lQaTW") + "epikone.5f6d3485.png" + "?" + Date.now();
-
-},{"337cc764be3537e8":"lgJ39"}],"ces86":[function(require,module,exports) {
-module.exports = require("518ffa92f606613b").getBundleURL("lQaTW") + "bluehouse.8062870c.png" + "?" + Date.now();
-
-},{"518ffa92f606613b":"lgJ39"}]},["1xC6H","ePIHx","iOqxX"], "iOqxX", "parcelRequirecaa1")
+},{}]},["1xC6H","ePIHx","iOqxX"], "iOqxX", "parcelRequirecaa1")
 
 //# sourceMappingURL=index.7335f5c5.js.map
