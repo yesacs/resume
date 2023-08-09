@@ -8,7 +8,7 @@ import logoBluehouse from './static/img/bluehouse.png'
 
 export default {
   name: 'Casey P. Sullivan',
-  position: 'Skilled UI/UX Developer and Designer',
+  position: 'Skilled UI/UX Developer',
   location: 'South Burlington, VT',
   objective: 'To hold a position in web site and web application development.',
   email: 'casey.sullivan@gmail.com',
